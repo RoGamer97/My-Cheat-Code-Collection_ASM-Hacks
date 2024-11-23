@@ -57,7 +57,7 @@ Player AI can rubberband. Do NOT use this with "Cops Can't Rubberband in Highway
 
 Player AI will rubberband based on distance from rival in Highway Battle and based on rival's speed. Do NOT use with "Enable AI Rubberband for Player AI" or "Enable AI Rubberband Anywhere" and "Auto Pilot"!
 
-# This code is bad and should be remade in the CORRECT WAY. It crashes before going to Highway Battle and can be remade in a better way.
+This code is bad and should be remade in the CORRECT WAY. It crashes before going to Highway Battle and can be remade in a better way.
 
 <details>
 <summary>Reveal Code</summary>
