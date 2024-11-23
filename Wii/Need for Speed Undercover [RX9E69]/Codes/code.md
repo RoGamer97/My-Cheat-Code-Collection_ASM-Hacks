@@ -1,11 +1,10 @@
-## 2x Game Speed and Full Max Game Speed (Super Fast)
+## Game Speed
 
-2x Game Speed: Game is double speed, fast. Speed is configurable (modify the float)
-
-Full Max Game Speed (Super Fast): Game will be at max speed possible, extremely fast
+Two codes that will change the game speed in different ways.
 
 <details>
 <summary>2x Game Speed</summary>
+Game is double speed, fast. Speed is configurable (modify the float)
 
 ```hex
 04709010 40000000
@@ -13,7 +12,8 @@ Full Max Game Speed (Super Fast): Game will be at max speed possible, extremely 
 </details>
 
 <details>
-<summary>2x Game Speed</summary>
+<summary>Full Max Game Speed (Super Fast)</summary>
+Game will be at max speed possible, extremely fast
 
 ```powerpc
 042D3EE0 38000000
