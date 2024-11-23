@@ -1,6 +1,6 @@
 ## Infinite Speedbreaker
 
-Speedbreaker never runs out
+Speedbreaker is infinite
 
 <details>
 <summary>Reveal Code</summary>
