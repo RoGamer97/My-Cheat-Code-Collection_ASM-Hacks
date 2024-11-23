@@ -6,7 +6,7 @@ Two codes that will change the game speed in different ways.
 <summary>2x Game Speed</summary>
 <br>
 Game is double speed, fast. Speed is configurable (modify the float)
-<br>
+
 ```hex
 04709010 40000000
 ```
