@@ -3,7 +3,7 @@
 Adds Classic Controller support to Mii Channel. Wiimote usage alone is not affected.
 
 <details>
-<summary>Code</summary>
+<summary>Reveal code</summary>
 
 ```powerpc
 041E19BC 60000000
@@ -75,5 +75,3 @@ C04C0004 D041000C
 60000000 00000000
 ```
 </details>
-
-<details>
