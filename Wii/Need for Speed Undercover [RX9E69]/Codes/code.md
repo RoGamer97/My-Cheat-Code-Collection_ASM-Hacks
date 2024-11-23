@@ -1,19 +1,22 @@
-## test
+## 2x Game Speed and Full Max Game Speed (Super Fast)
 
-codeeeeeeeee
+2x Game Speed: Game is double speed, fast. Speed is configurable (modify the float)
+
+Full Max Game Speed (Super Fast): Game will be at max speed possible, extremely fast
 
 <details>
-<summary>NTSC-U</summary>
+<summary>2x Game Speed</summary>
 
-```powerpc
-0405E0A8 48000020
+```hex
+04709010 40000000
 ```
 </details>
 
 <details>
-<summary>PAL</summary>
+<summary>2x Game Speed</summary>
 
 ```powerpc
-0405E0A8 48000020
+042D3EE0 38000000
+0070BE14 00000001
 ```
 </details>
