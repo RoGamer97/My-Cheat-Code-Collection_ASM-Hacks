@@ -14,8 +14,6 @@ Allow cops to always be able to spawn, event/mode and limits in specific scenari
 </details>
 
 <details>
-
-<details>
 <summary>Allow Multiple Helicopters Spawn</summary>
 
 Allows more than one helicopter to spawn. This code is enabled when both "Police Helicopter Consecutively Spawns" codes are enabled by button activator
@@ -26,7 +24,6 @@ Allows more than one helicopter to spawn. This code is enabled when both "Police
 </details>
 
 <details>
-
 <summary>Cops Consecutively Spawn Behind You</summary>
 
 Force cops to consecutively spawn behind you. No new cops can spawn when the max limit of vehicles is reached at the moment (14). "Force Start Pursuit" and "Cops Can Always Spawn" are included in this code when it's enabled
