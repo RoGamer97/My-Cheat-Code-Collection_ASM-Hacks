@@ -1,0 +1,8 @@
+@nsobid-6A85262F21B903649BD7C62628D26E43
+@flag offset_shift 0x100
+
+@enabled
+0056F304 00000000
+0056F32A BX // Change BX to B7 for Red, B0 for Blue
+
+@stop
