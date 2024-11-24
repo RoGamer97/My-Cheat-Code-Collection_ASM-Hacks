@@ -1,6 +1,6 @@
 ## Items Can Drop in Time Trials
 
-Items can be dropped in Time Trials
+Items can be dropped in Time Trials instead of poofing when touching the ground. The drop angle is like VS too
 
 <details>
 <summary>NTSC-U</summary>
