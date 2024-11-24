@@ -1,4 +1,4 @@
-## Save Slot Dokan Warp
+## Save Slot Dokan Warp Codes
 
 Dokan Warp is the jump from Honeybee Hive that launches you to the air to a specific location. These codes allow you to press a button to save your location and press another button to dokan warp to that location - you will be launched to the air to the direction of the location you saved and will land there
 
