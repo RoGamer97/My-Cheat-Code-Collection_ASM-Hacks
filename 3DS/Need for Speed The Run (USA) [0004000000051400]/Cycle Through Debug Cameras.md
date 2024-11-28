@@ -12,7 +12,6 @@ sidecam (Side camera, camera is on the right side of the car, showing its side. 
 <summary>Reveal Code</summary>
 
 ```armv7
-00355958 00000000
 00355984 EA07E9A2
 E0550014 00000070
 E3A01000 E1A02000 
