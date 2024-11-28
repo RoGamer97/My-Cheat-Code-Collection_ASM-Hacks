@@ -1,6 +1,6 @@
-## Every Car Has Nitrous
+## Every Car Has Nitro
 
-Every car will have nitrous, AIs and cops are affected
+Every car will have nitro, AIs and cops are affected
 
 <details>
 <summary>Reveal Code</summary>

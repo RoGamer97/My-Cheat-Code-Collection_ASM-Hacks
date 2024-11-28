@@ -297,7 +297,7 @@ E0000000 00000000
 <summary>Player Controllable Helicopter (Any Controller)</summary>
 
 The player helicopter can be controllable. Other game changes were also made when the player uses the helicopter. 
-This version of the code works in any controller and uses Nitrous button to go up and Handbrake button to go down. 
+This version of the code works in any controller and uses Nitro button to go up and Handbrake button to go down. 
 If you use GameCube Controller or Classic Controller, you have the option to use right stick to go up and down by using
 the other version of the code present in this download
 

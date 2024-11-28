@@ -1,4 +1,4 @@
-## Drive Thru Walls
+## Drive Through Walls
 
 You'll go through walls. Also included code to prevent forced reset/respawn when out of bounds. Affects everyone
 

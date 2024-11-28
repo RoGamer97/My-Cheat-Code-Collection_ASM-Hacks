@@ -1,6 +1,6 @@
-## Infinite Nitrous Codes
+## Infinite Nitro Codes
 
-Two infinite nitrous codes. One code only affects you (Infinite Nitrous from Konami Cheat) and other code affects everyone
+Two infinite nitro codes. One code only affects you (Infinite Nitro from Konami Cheat) and other code affects everyone
 
 <details>
 <summary>Only You</summary>

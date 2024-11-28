@@ -1,6 +1,6 @@
-## Infinite Nitrous (Always Charged)
+## Infinite Nitro (Always Charged)
 
-Nitrous is infinite and always charged
+Nitro is infinite and always charged
 
 <details>
 <summary>Reveal Code</summary>

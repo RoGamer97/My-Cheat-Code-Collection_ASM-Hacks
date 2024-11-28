@@ -1,6 +1,6 @@
 ## Frozen Timer
 
-Timer is frozen, will never increment or decrement. Affects other players online if you're host
+Timer is frozen and will never increment or decrement. Allows playing missions without time restriction. Affects other players online if you're host
 
 <details>
 <summary>Reveal Code</summary>
