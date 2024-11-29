@@ -7,7 +7,7 @@ To load the Test Tracks, you need both the patch and the track files added to th
 
 ---
 
-### #test_Customizer#
+### test_Customizer
 
 This track is used in the Customizer scene. While we never had the files for this track, the game has a skybox for it. Based on the skybox and the fact that the Customizer scene spawns at 0,0,0, it's likely this track has no model and is just the "Gu_Menu" with the "VRCustomizer" skybox. This is a recreation of the track, and this is **VERY LIKELY** how it looks.
 
@@ -19,13 +19,13 @@ The "No Customizer Crash" patch I made is already included in the Test Tracks pa
 
 ---
 
-### #test_DanceFloor#
+### test_DanceFloor
 
 A track found in the Prototype and early versions of *Deluxe*, which only includes a lighting environment file. I decided to include it, even though it has no collision, model, or mapping file. It will load the Mario Circuit track, but with the *test_DanceFloor* lighting environment.
 
 ---
 
-### #test_WiFiTest1#
+### test_WiFiTest1
 
 This track was found in the Kiosk Demo version of *Mario Kart 8* on Wii U. The *MK8DX* port of this track was made by CallyHam, with crash and particle fixes by me. The original version had 2 laps (since all Kiosk Demo tracks were 2 laps), but this version is set to 3 laps.
 
@@ -43,8 +43,8 @@ The tracks can be played in both Race and Battle modes.
 
 ---
 
-For more information about test tracks, visit [The Cutting Room Floor's Mario Kart 8 Deluxe page](https://tcrf.net/Proto:Mario_Kart_8_Deluxe#Test_Tracks).
+For more information about test tracks, visit https://tcrf.net/Proto:Mario_Kart_8_Deluxe#Test_Tracks
 
-For additional patches, read [The Cutting Room Floor's Patches page](https://tcrf.net/Proto:Mario_Kart_8_Deluxe/Patches).
+For additional patches, read https://tcrf.net/Proto:Mario_Kart_8_Deluxe/Patches
 
 ---
