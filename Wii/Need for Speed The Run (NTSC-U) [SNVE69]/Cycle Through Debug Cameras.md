@@ -11,8 +11,6 @@ sidecam (Side camera, camera is on the right side of the car, showing its side. 
 <details>
 <summary>Reveal Code</summary>
 
-For some reason, both Wii and 3DS version of the game doesn't store the pressed button values in memory, so the code is ugly and tricky
-
 ```armv7
 C210363C 00000011
 7C651B78 3D808055
