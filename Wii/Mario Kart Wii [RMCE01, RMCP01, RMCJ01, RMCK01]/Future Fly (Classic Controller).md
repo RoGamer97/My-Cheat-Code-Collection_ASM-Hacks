@@ -1,6 +1,6 @@
 ## Future Fly (Classic Controller) [TheMrx1983, Skullface, Ro]
 
-Future Fly is made by TheMrx1983. I just added support for Classic Controller
+Allows you to freely fly with great control. Future Fly is made by TheMrx1983. I just added support for Classic Controller
 
 For Classic Controller only. You can find for other controllers in this site.
 

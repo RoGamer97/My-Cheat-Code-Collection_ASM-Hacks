@@ -6,8 +6,8 @@ You'll go through walls. Also included code to prevent forced reset/respawn when
 <summary>Reveal Code</summary>
 
 ```powerpc
-04088EDC 4E800020
-043155D8 4E800020
-0433F34C 38600001
+0408C348 4E800020
+042DE124 4E800020
+04308640 38600001
 ```
 </details>

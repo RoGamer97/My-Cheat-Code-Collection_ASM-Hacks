@@ -1,6 +1,6 @@
 ## Player Controllable Helicopter Codes
 
-Codes that allow you to control and fly the Police Helicopter (copheli) when selecting it with Debug Car Customize. Recommended to use with "No Preset Car" so you can use the Helicopter in specific events that replace your car (Such as "Betrayed!")
+Codes that allows you to control and fly the Police Helicopter (copheli) when selecting it with Debug Car Customize. Recommended to use with "No Preset Car" so you can use the Helicopter in specific events that replace your car (Such as "Betrayed!")
 
 Watch video of the code and explanation: https://www.youtube.com/watch?v=HDw4_9dBsoo
 

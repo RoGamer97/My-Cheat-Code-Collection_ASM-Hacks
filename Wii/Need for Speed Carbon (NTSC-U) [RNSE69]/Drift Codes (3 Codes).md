@@ -33,7 +33,7 @@ E0000000 00000000
 <details>
 <summary>Toggle Drift Camera On/Off</summary>
 
-You can toggle drift camera (zoomed out cam) on and off by pressing 2 and A. 
+You can toggle drift camera (zoomed out and focusing on turns) on and off by pressing 2 and A. 
 
 You can change toggle button by replacing F6FF0900 by YYYYZZZZ, where ZZZZ is button and YYYY is ZZZZ - FFFF
 
