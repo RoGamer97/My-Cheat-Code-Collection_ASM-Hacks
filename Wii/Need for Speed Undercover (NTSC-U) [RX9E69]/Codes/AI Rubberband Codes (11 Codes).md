@@ -1,13 +1,13 @@
-## Enable AI Rubberband Anywhere
+## AI Rubberband Codes
 
-Enables AI Rubberband from Highway Battle anywhere (any mode/event or Free Roam). Two codes are included, one will affect every AI and one will only affect cops.
-
-Video explanation of the AI Rubberband behavior and the code in action: https://www.youtube.com/watch?v=2qrt8nCXslg
+Codes related to AI Rubberband from Highway Battle
 
 <details>
-<summary>Every AI</summary>
+<summary>Enable AI Rubberband Anywhere (Every AI)</summary>
 
-Affects every AI (racer, cops and few other AIs). Since it affects rival AI, they will be rubberbanding every frame and they're unbeatable. Use the code below if you want it to only affect cops.
+Enables AI Rubberband from Highway Battle anywhere (any mode/event or Free Roam). Two codes are included, one will affect every AI and one will only affect cops. This one affects everyone. Since it affects rival AI, they will be rubberbanding every frame and they're unbeatable. Use the other code below if you want it to only affect cops.
+
+Video explanation of the AI Rubberband behavior and the code in action: https://www.youtube.com/watch?v=2qrt8nCXslg
 
 ```powerpc
 04022DF8 60000000
@@ -19,9 +19,11 @@ Affects every AI (racer, cops and few other AIs). Since it affects rival AI, the
 </details>
 
 <details>
-<summary>Only Cops</summary>
+<summary>Enable AI Rubberband Anywhere (Only Cops)</summary>
 
-Only affect cops. Every other AI (racer and few other AIs) will not be affected and will behave as normal. Use this for better experience!
+Enables AI Rubberband from Highway Battle anywhere (any mode/event or Free Roam). Only affect cops. Every other AI (racer and few other AIs) will not be affected and will behave as normal, unless if using the other code above. Use this for better experience!
+
+Video explanation of the AI Rubberband behavior and the code in action: https://www.youtube.com/watch?v=2qrt8nCXslg
 
 ```powerpc
 C2027158 00000004
@@ -41,30 +43,22 @@ C2333EA0 00000003
 ```
 </details>
 
-## Enable AI Rubberband for Player AI
+<details>
+<summary>Enable AI Rubberband for Player AI</summary>
 
 Player AI can rubberband. Do NOT use this with "Cops Can't Rubberband in Highway Battle (Game Fix)"!
-
-<details>
-<summary>Reveal Code</summary>
 
 ```powerpc
 04022E14 60000000
 ```
 </details>
 
-## Player AI Rubberbands Against Highway Battle AI
+<details>
+<summary>Player AI Rubberbands Against Highway Battle AI</summary>
 
 Player AI will rubberband based on distance from rival in Highway Battle and based on rival's speed. Do NOT use with "Enable AI Rubberband for Player AI" or "Enable AI Rubberband Anywhere" and "Auto Pilot"!
-<<<<<<< HEAD:Wii/Need for Speed Undercover [RX9E69]/Codes/AI Rubberband Codes.md
 
-=======
- 
->>>>>>> 2cb0f49 (Added codes for MK7):Wii/Need for Speed Undercover [RX9E69]/Codes/AI Rubberband Codes (11 Codes).md
 This code is bad and should be remade in the CORRECT WAY. It crashes before going to Highway Battle and can be remade in a better way.
-
-<details>
-<summary>Reveal Code</summary>
 
 ```powerpc
 04022E14 4182003C
@@ -74,15 +68,13 @@ This code is bad and should be remade in the CORRECT WAY. It crashes before goin
 ```
 </details>
 
-## Highway Battle AI Rubberband Simulator (Player AI Rubberband Speed Control & Auto Pilot Toggle)
+<details>
+<summary>Highway Battle AI Rubberband Simulator (Player AI Rubberband Speed Control & Auto Pilot Toggle)</summary>
 
 This code allows your vehicle to "simulate" the Highway Battle AI Rubberband. This code is for Classic Controller only: Press ZL to enable and disable auto pilot for your car, you MUST use "Enable AI Rubberband Anywhere (Every AI)" and
 "Enable AI Rubberband for Player AI" in order for your car to be able to rubberband. Push left stick up/down to increase/decrease your rubberband speed. Press L to completely reset the speed back to zero.
 
 Here's a video showing this code: https://www.youtube.com/shorts/0net710FLR0
-
-<details>
-<summary>Reveal Code</summary>
 
 ```powerpc
 28642A1A FF7F0080
@@ -106,12 +98,10 @@ E0000000 00000000
 ```
 </details>
 
-## Force Rubberbanding AI Speed
+<details>
+<summary>Force Rubberbanding AI Speed</summary>
 
 Forces Rubberbanding AI to always be at set speed rather than having speed based on player speed, it is currently set to be very fast (460kmh~). You can modify the speed by modifying the float on the first line (43000000)
-
-<details>
-<summary>Reveal Code</summary>
 
 ```powerpc
 04001894 43000000
@@ -120,15 +110,13 @@ Forces Rubberbanding AI to always be at set speed rather than having speed based
 ```
 </details>
 
-## Rubberbanding AI Chases & Rams You
+<details>
+<summary>Rubberbanding AI Chases & Rams You</summary>
 
 Rubberbanding AI will chase and ram you, very crazy and fun. Recommended to use with the code below, "Force Rubberbanding AI Speed" so the AIs are always moving at a constant speed, else, their speed will be based
 on your speed and they won't move if you don't move. It does actually work for non-rubberbanding AIs too, if you want rather a more normal gameplay while cops and AIs still follow you
 
 Should make two versions of the code, one for all AIs and one for cops only
-
-<details>
-<summary>Reveal Code</summary>
 
 ```powerpc
 06026DF0 00000010
@@ -141,14 +129,12 @@ C06CF884 C00CF888
 ```
 </details>
 
-## Rubberbanding AI Flies in the Air
+<details>
+<summary>Rubberbanding AI Flies in the Air</summary>
 
 Rubberbanding AI will be flying in the air rather than being on the ground. 
 
 Code should be updated to increase Y height rather than setting it
-
-<details>
-<summary>Reveal Code</summary>
 
 ```powerpc
 04001890 45000000
@@ -161,13 +147,12 @@ C20272A0 00000002
 ```
 </details>
 
-## Unlimited AI Rubberband Amount
+<details>
+<summary> Unlimited AI Rubberband Amount (Highway Battle)</summary>
 
 The game has an amount of how many times the AI can rubberband. After that amount is passed the AI can't rubberband anymore, allowing you to win. 
-This code will make the AI always able to rubberband, therefore you can never  escape and win because it will always catch you up and never leave you alone
 
-<details>
-<summary>Highway Battle</summary>
+Highway Battle only. Outrun one is included after this code. Both can be used together
 
 ```powerpc
 04022E28 38607FFF
@@ -175,20 +160,22 @@ This code will make the AI always able to rubberband, therefore you can never  e
 </details>
 
 <details>
-<summary>Outrun</summary>
+<summary>Unlimited AI Rubberband Amount (Outrun)</summary>
+
+The game has an amount of how many times the AI can rubberband. After that amount is passed the AI can't rubberband anymore, allowing you to win. 
+
+Outrun only. Highway Battle one is included above this code. Both can be used together
 
 ```powerpc
 04027E78 38607FFF
 ```
 </details>
 
-## Cops Can't Rubberband in Highway Battle (Game Fix)
+<details>
+<summary>Cops Can't Rubberband in Highway Battle (Game Fix)</summary>
 
 This code fixes an issue where cops can rubberband in Highway Battle, meaning that cops will no longer be crazy in Highway Battles. This is basically a fix that the developers should have done but forgot or they never saw cops
 rubberbanding and forgot that they also use the same function as the AI racer. Rushed game, I guess they didn't test every aspect in gameplay. Do NOT use this with "Enable AI Rubberband for Player AI"!
-
-<details>
-<summary>Outrun</summary>
 
 ```powerpc
 C2022E10 00000003
