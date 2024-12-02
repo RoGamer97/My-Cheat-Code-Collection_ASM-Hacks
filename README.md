@@ -6,7 +6,7 @@ Welcome to my collection of cheat codes (ASM hacks) for various games across mul
 
 Folders are organized by platform. Inside each platform folder, you'll find:
 
-- **Game name folder**: Labeled with the **version** first, followed by either the **Game ID**, **Title ID**, or **Build ID**. The **Build ID** is based on the version of the game if different versions have no different **Title ID**.
+- **Game name folder**: Labeled with the **version** first, followed by the **Game ID**, **Title ID**, or **Build ID**, depending on the platform. The **Build ID** is used when the **Title ID** remains the same across different versions and regions.
 - All the codes for that game inside the corresponding game name folder.
 
 Some related codes are grouped together in single files. If a file name includes ```... Codes (X Codes)```, it contains multiple related codes (where X is the number of codes in that file). Be sure to review the file carefully when searching for a specific code.
