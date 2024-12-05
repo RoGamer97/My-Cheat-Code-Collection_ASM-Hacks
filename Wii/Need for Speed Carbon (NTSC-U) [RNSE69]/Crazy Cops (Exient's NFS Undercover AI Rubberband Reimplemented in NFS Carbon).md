@@ -7,6 +7,8 @@ Mentioned NOS and NOS accel
 <details>
 <summary>Reveal Code</summary>
 
+If you want every AI to rubberband (racers and your player AI), replace 408202C0 with 60000000
+
 ```powerpc
 C202749C 0000005B
 7C9D2378 819B0048
@@ -106,3 +108,10 @@ C03C0084 899C011C
 C0229CC4 00000000
 ```
 </details>
+
+C22B6654 00000005
+819D0078 2C0C0000
+40820014 898300D0
+2C0C0000 41820008
+38600000 3BC00000
+60000000 00000000

@@ -1,6 +1,6 @@
 ## Show Disabled/Destroyed Cop Cars Icon on Minimap
 
-You can see disabled/destroyed cop cars icons on minimap, I also coded it so their icon is white when destroyed, just like NFSMW
+You can see disabled/destroyed cop cars icons on minimap, I also coded it so their icon is white when destroyed, just like NFSMW. If you want it to be red instead (like NFSC), replace 4180000C with 4800000C
 
 <details>
 <summary>Reveal Code</summary>

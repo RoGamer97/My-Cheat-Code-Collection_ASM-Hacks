@@ -1,6 +1,6 @@
-## Every Car Has Nitro
+## All Cars Have Nitro
 
-Every car will have nitro, AIs and cops are affected
+All cars will have nitro, AIs and cops are affected
 
 <details>
 <summary>Reveal Code</summary>

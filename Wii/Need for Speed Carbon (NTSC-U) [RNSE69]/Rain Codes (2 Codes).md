@@ -8,7 +8,7 @@ Rain related codes
 It will always be raining
 
 ```powerpc
-043BA490 C0229CC4
+043BA490 C022B5FC
 ```
 </details>
 

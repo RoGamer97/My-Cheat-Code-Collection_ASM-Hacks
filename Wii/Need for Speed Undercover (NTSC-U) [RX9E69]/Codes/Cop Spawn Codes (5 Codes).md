@@ -1,4 +1,4 @@
-## Cop Spawn Related Codes
+## Cop Spawn Codes
 
 Cop spawning related codes
 
