@@ -1,4 +1,4 @@
-## Anti Freeze from Bullet BillBlue Shell (BattleNo Item Routes) 
+## Anti Freeze from Bullet Bill/Blue Shell (Battle/No Item Routes) 
 
 This code will prevent the game from freezing if a Bullet Bill is used in a course that has no item routes (example: Battle stages).
 I remade this code because the one found in Wiimmfi payload (made by Leseratte) has two problematic issues: Respawning too much (you and CPUs) offline (in Battle/course with no item routes) cause the game to lag very badly, dropping FPS down to around 10FPS. And also another problem which I must explain first, apparently Blue Shells crash the game in VS if the course has no item routes, but only when it's flying around the course and not flying to target - Leseratte's code fixes the crash but causes the game to lag VERY badly, dropping FPS down to 1 FPS. This can be exploited on Wiimmfi (and NewWFC for hackers that use Leseratte's code) by sending Blue Shells with invalid route IDs, causing the game to even lower than 1 FPS depending on how many blues are in play.
