@@ -3,7 +3,7 @@
 Two infinite nitro codes. One code only affects you (Infinite Nitro from Konami Cheat) and other code affects everyone
 
 <details>
-<summary>Only You</summary>
+<summary>Infinite Nitro (Only You)</summary>
 
 Only affects you
 
@@ -14,7 +14,7 @@ Only affects you
 </details>
 
 <details>
-<summary>Everyone</summary>
+<summary>Infinite Nitro (Everyone)</summary>
 
 Affects everyone 
 
