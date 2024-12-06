@@ -6,6 +6,6 @@ Checkpoints are visible. Apparently this is unused in both Carbon and Most Wante
 <summary>Reveal Code</summary>
 
 ```powerpc
-04251194 38600001
+041A60F0 38600001
 ```
 </details>
