@@ -11,7 +11,7 @@ Credits to Need for Speed Carbon Extra Options mod, I saw their source and found
 <details>
 <summary>Reveal Code</summary>
 
-Press D-Pad Up to increase heat level, D-Pad Down to decrease heat level
+Push C-Stick Left to decrease heat level, C-Stick Right to increase heat level
 
 ```powerpc
 040346B0 60000000
