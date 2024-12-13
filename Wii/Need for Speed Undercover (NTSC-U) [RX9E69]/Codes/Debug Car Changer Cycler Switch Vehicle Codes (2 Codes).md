@@ -8,7 +8,6 @@ Codes related to the Debug feature that allows changing vehicles in game with a 
 Press Classic Controller ZL/ZR buttons to switch vehicle live, modified debug car changer that is nativally in the game. ZL cycles to the previous vehicle, ZR cycles to the next vehicle. The code below ("Cop Vehicle Cycler") allows you to cycle thru 
 all cop vehicles. You can customize the vehicle list to any vehicle you want, all you need to do is change the vehicle hashes to the ones you want (First hash is "BB9B2938", last one is "7D8802A6"). To get a hash, use NFS Hasher v2.0 by nfsu360 and
 input the vehicle string name and copy the value from "VLT Memory" to the code.
-If you want to change the controller or button, read the "Button Activator.txt" file inside of the Code Pack RAR
 
 
 ```powerpc

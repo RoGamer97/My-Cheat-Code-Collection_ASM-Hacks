@@ -1,6 +1,6 @@
 ## Classic Controller Support
 
-Adds Classic Controller support to Mii Channel. Wiimote usage alone is not affected.
+Adds Classic Controller support to Mii Channel. Wiimote usage alone is not affected. This is custom self made code, not reusing official code
 
 <details>
 <summary>Reveal Code</summary>

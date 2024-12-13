@@ -46,25 +46,12 @@ C2333EA0 00000003
 <details>
 <summary>Enable AI Rubberband for Player AI</summary>
 
-Player AI can rubberband. Do NOT use this with "Cops Can't Rubberband in Highway Battle (Game Fix)"!
+Player AI can rubberband. To work in everywhere, use with "Enable AI Rubberband Anywhere (Every AI)", else, it will only work in Highway Battle
+
+Do NOT use this with "Cops Can't Rubberband in Highway Battle (Game Fix)"!
 
 ```powerpc
 04022E14 60000000
-```
-</details>
-
-<details>
-<summary>Player AI Rubberbands Against Highway Battle AI</summary>
-
-Player AI will rubberband based on distance from rival in Highway Battle and based on rival's speed. Do NOT use with "Enable AI Rubberband for Player AI" or "Enable AI Rubberband Anywhere" and "Auto Pilot"!
-
-This code is bad and should be remade in the CORRECT WAY. It crashes before going to Highway Battle and can be remade in a better way.
-
-```powerpc
-04022E14 4182003C
-04027164 3D808065
-04027170 806CBF0C 
-040271B0 60000000
 ```
 </details>
 
@@ -113,19 +100,21 @@ Forces Rubberbanding AI to always be at set speed rather than having speed based
 <details>
 <summary>Rubberbanding AI Chases & Rams You</summary>
 
-Rubberbanding AI will chase and ram you, very crazy and fun. Recommended to use with the code below, "Force Rubberbanding AI Speed" so the AIs are always moving at a constant speed, else, their speed will be based
-on your speed and they won't move if you don't move. It does actually work for non-rubberbanding AIs too, if you want rather a more normal gameplay while cops and AIs still follow you
+Rubberbanding AI will chase and ram you, very crazy and fun. Recommended to use with the "Force Rubberbanding AI Speed" code so the AIs are always moving at a constant speed, else, their speed will be based
+on your speed and they won't move if you don't move. It does actually work for non-rubberbanding AIs too, if you want rather a more normal gameplay while cops and AIs still follow you.
 
-Should make two versions of the code, one for all AIs and one for cops only
+Recommended to use with "Indestructive Cop Cars (No Damage)"
+
+Code only affect cops, if you want it to affect every AI, change 40820020 to 60000000
 
 ```powerpc
-06026DF0 00000010
-3D808065 C0ACF880
-C06CF884 C00CF888
-04027298 3D808065
-040272A0 C0ECF884 
-040272A4 C10CF880
-040272AC C0CCF888
+C202715C 00000006
+81990048 2C0C0000
+40820020 3D808065
+C02CF880 D02101C4
+C02CF884 D02101C8
+C02CF888 D02101CC
+3AE00000 00000000
 ```
 </details>
 
@@ -134,15 +123,14 @@ C06CF884 C00CF888
 
 Rubberbanding AI will be flying in the air rather than being on the ground. 
 
-Code should be updated to increase Y height rather than setting it
+Code only affect cops, if you want it to affect every AI, change 40820014 to 60000000
 
 ```powerpc
-04001890 45000000
-C2026E04 00000002
-3E408000 C0721890
-D06101C8 00000000
-C20272A0 00000002
-3E408000 C0F21890
+C202715C 00000005
+81990048 2C0C0000
+40820014 C02101C8
+C002A964 EC21002A
+D02101C8 3AE00000
 60000000 00000000
 ```
 </details>
@@ -164,10 +152,34 @@ Highway Battle only. Outrun one is included after this code. Both can be used to
 
 The game has an amount of how many times the AI can rubberband. After that amount is passed the AI can't rubberband anymore, allowing you to win. 
 
-Outrun only. Highway Battle one is included above this code. Both can be used together
+Outrun only. Highway Battle one is included above this code. Both can be used together, can also be used with Unlimited Rubberband Time
 
 ```powerpc
 04027E78 38607FFF
+```
+</details>
+
+<details>
+<summary> Unlimited AI Rubberband Time (Highway Battle)</summary>
+
+The game has a race time elapsed limit. After that time is passed the AI can't rubberband anymore, allowing you to win. 
+
+Highway Battle only. Outrun one is included after this code. Both can be used together, can also be used with Unlimited Rubberband Amount
+
+```powerpc
+04027254 60000000
+```
+</details>
+
+<details>
+<summary>Unlimited AI Rubberband Time (Outrun)</summary>
+
+The game has a race time elapsed limit. After that time is passed the AI can't rubberband anymore, allowing you to win. 
+
+Outrun only. Highway Battle one is included before this code. Both can be used together, can also be used with Unlimited Rubberband Amount
+
+```powerpc
+0402AFC4 60000000
 ```
 </details>
 
