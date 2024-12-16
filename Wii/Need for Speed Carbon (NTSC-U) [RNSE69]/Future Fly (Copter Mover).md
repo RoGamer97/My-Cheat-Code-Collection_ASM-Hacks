@@ -10,6 +10,8 @@ Flight controls are the same as driving, with addition of going up (Nitro button
 
 Use with "Drive Through Walls (Only You)" code, which can be found in this same folder
 
+Because of how it's designed, will not work with "Debug Car Changer Cycler"
+
 <details>
 <summary>Reveal Code</summary>
 

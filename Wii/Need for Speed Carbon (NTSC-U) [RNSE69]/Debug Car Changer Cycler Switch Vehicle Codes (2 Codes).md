@@ -9,6 +9,8 @@ Press Minus (-) and D-Pad Up/D-Pad Down (Horizontal Wiimote) buttons to switch v
 all cop vehicles. You can customize the vehicle list to any vehicle you want, all you need to do is change the vehicle hashes to the ones you want (First hash is "BB9B2938", last one is "7D8802A6"). To get a hash, use NFS Hasher v2.0 by nfsu360 and
 input the vehicle string name and copy the value from "VLT Memory" to the code.
 
+Don't change vehicle when a racer approaches you for a race in Free Roam and don't use it too much in events, it might crash
+
 ```powerpc
 04394338 60000000
 C2394314 0000000F

@@ -90,10 +90,15 @@ E0000000 00000000
 
 Forces Rubberbanding AI to always be at set speed rather than having speed based on player speed, it is currently set to be very fast (460kmh~). You can modify the speed by modifying the float on the first line (43000000)
 
+Only affect cops, if you want it to affect every AI, change 4082000C to 60000000
+
 ```powerpc
 04001894 43000000
-040274F0 3D608000
-040274F8 C02B1894
+C20274F8 00000004
+EC2007F2 81790048
+2C0B0000 4082000C
+3D608000 C02B1894
+60000000 00000000
 ```
 </details>
 
@@ -101,11 +106,11 @@ Forces Rubberbanding AI to always be at set speed rather than having speed based
 <summary>Rubberbanding AI Chases & Rams You</summary>
 
 Rubberbanding AI will chase and ram you, very crazy and fun. Recommended to use with the "Force Rubberbanding AI Speed" code so the AIs are always moving at a constant speed, else, their speed will be based
-on your speed and they won't move if you don't move. It does actually work for non-rubberbanding AIs too, if you want rather a more normal gameplay while cops and AIs still follow you.
+on your speed and they won't move if you don't move. 
 
 Recommended to use with "Indestructive Cop Cars (No Damage)"
 
-Code only affect cops, if you want it to affect every AI, change 40820020 to 60000000
+Only affect cops, if you want it to affect every AI, change 40820020 to 60000000
 
 ```powerpc
 C202715C 00000006
@@ -121,17 +126,18 @@ C02CF888 D02101CC
 <details>
 <summary>Rubberbanding AI Flies in the Air</summary>
 
-Rubberbanding AI will be flying in the air rather than being on the ground. 
+Rubberbanding AI will be flying in the air rather than being on the ground. You can modify the height they fly at by modifying the float on the first line (42200000)
 
-Code only affect cops, if you want it to affect every AI, change 40820014 to 60000000
+Only affect cops, if you want it to affect every AI, change 40820014 to 60000000
 
 ```powerpc
+04001898 42200000
 C202715C 00000005
 81990048 2C0C0000
-40820014 C02101C8
-C002A964 EC21002A
-D02101C8 3AE00000
-60000000 00000000
+40820018 C02101C8
+3D808000 C00C1898
+EC21002A D02101C8
+3AE00000 00000000
 ```
 </details>
 
