@@ -1,18 +1,16 @@
-## AI Rubberband Reimplemented from Exient's Undercover Codes
+## Exient's Undercover AI Rubberbanding Port Codes
 
-TEXT TO BE ADDED AFTER VIDEO... MAYBE CHANGE NAME TOO.
-
-Mentioned NOS and NOS accel
+AI Rubberbanding ported from Need for Speed Undercover Wii (Exient's Undercover). 
 
 <details>
 <summary>Crazy Cops (Exient's Undercover AI Rubberband Port)</summary>
 
-If you want every AI to rubberband (racers and your player AI), change 40820300 to 60000000 and 40820008 to 60000000
+If you want every AI to rubberband (racers and your player AI), change 408202F0 to 60000000
 
 ```powerpc
-C2027418 00000063
+C2027418 00000061
 3AE00000 819B0048
-2C0C0000 40820300
+2C0C0000 408202F0
 38600001 3D808005
 618CB448 7D8903A6
 4E800421 81830000
@@ -29,17 +27,15 @@ C2027418 00000063
 818C0028 7D8903A6
 4E800421 819B0040
 8BAC00CF 2C1D0060
-40820014 3BA000C0
+41810014 3BA000C0
 9BAC00CF C0229CC4
 D02C00A4 3AE00001
 48000009 40D692B6
-7D8802A6 C00C0000
-C021000C EC421028
-FC011040 41820014
-FC010040 40810014
-FC01F840 4080000C
-C00293E4 EC3F0032
-C0029DE4 EC210032
+7D8802A6 C021000C
+C00C0000 FC010040
+40810010 FC01F840
+40800008 FC20F890
+C002A5B0 EC210032
 D021000C C0E100C4
 C10100C0 FC403818
 C0C100C8 C0030004
@@ -137,8 +133,8 @@ C021000C 00000000
 <details>
 <summary>Highway Battle AI Rubberband Simulator (Player AI Rubberband Speed Control & Auto Pilot Toggle)</summary>
 
-This code allows your vehicle to "simulate" the Highway Battle AI Rubberband. Press 1, 2 and A to enable and disable auto pilot for your car.
-Hold D-Pad Up and D-Pad Down (for horizontal Wiimote. D-Pad Right and D-Pad Left for vertical Wiimote) to increase/decrease your rubberband speed. Press B to completely reset the speed back to zero.
+This code allows your vehicle to "simulate" the Highway Battle AI Rubberband. Press 1, 2 and A to enable and disable auto pilot and rubberbanding for your car.
+Hold D-Pad Up and D-Pad Down (for horizontal Wiimote. D-Pad Right and D-Pad Left for vertical Wiimote) to increase/decrease your rubberband speed. Press B to completely reset the speed back to zero
 
 ```powerpc
 28626B32 F4FF0B00
@@ -170,7 +166,7 @@ E0000000 00000000
 <summary>Rubberbanding AI Chases & Rams You</summary>
 
 Rubberbanding AI will chase and ram you, very crazy and fun. Recommended to use with the "Force Rubberbanding AI Speed" code so the AIs are always moving at a constant speed, else, their speed will be based
-on your speed and they won't move if you don't move.
+on your speed and they won't move if you don't move
 
 Also recommended to use with "Indestructive Cop Cars (No Damage)"
 
@@ -188,10 +184,10 @@ D02100C8 388100C0
 <details>
 <summary>Rubberbanding AI Flies in the Air</summary>
 
-Rubberbanding AI will be flying in the air rather than being on the ground. You can modify the height they fly at by modifying the float on the first line (42200000)
+Rubberbanding AI will be flying in the air rather than being on the ground. You can modify the height they fly at by modifying the float on the first line (420C0000)
 
 ```powerpc
-04001898 42200000
+04001898 420C0000
 C2027404 00000005
 2C170000 41820018
 C02100C4 3D808000

@@ -58,7 +58,7 @@ Do NOT use this with "Cops Can't Rubberband in Highway Battle (Game Fix)"!
 <details>
 <summary>Highway Battle AI Rubberband Simulator (Player AI Rubberband Speed Control & Auto Pilot Toggle)</summary>
 
-This code allows your vehicle to "simulate" the Highway Battle AI Rubberband. This code is for Classic Controller only: Press ZL to enable and disable auto pilot for your car, you MUST use "Enable AI Rubberband Anywhere (Every AI)" and
+This code allows your vehicle to "simulate" the Highway Battle AI Rubberband. This code is for Classic Controller only: Press ZL to enable and disable auto pilot and rubberbanding for your car, you MUST use "Enable AI Rubberband Anywhere (Every AI)" and
 "Enable AI Rubberband for Player AI" in order for your car to be able to rubberband. Push left stick up/down to increase/decrease your rubberband speed. Press L to completely reset the speed back to zero.
 
 Here's a video showing this code: https://www.youtube.com/shorts/0net710FLR0
@@ -90,15 +90,10 @@ E0000000 00000000
 
 Forces Rubberbanding AI to always be at set speed rather than having speed based on player speed, it is currently set to be very fast (460kmh~). You can modify the speed by modifying the float on the first line (43000000)
 
-Only affect cops, if you want it to affect every AI, change 4082000C to 60000000
-
 ```powerpc
 04001894 43000000
-C20274F8 00000004
-EC2007F2 81790048
-2C0B0000 4082000C
-3D608000 C02B1894
-60000000 00000000
+040274F0 3D608000
+040274F8 C02B1894
 ```
 </details>
 
@@ -110,34 +105,27 @@ on your speed and they won't move if you don't move.
 
 Recommended to use with "Indestructive Cop Cars (No Damage)"
 
-Only affect cops, if you want it to affect every AI, change 40820020 to 60000000
-
 ```powerpc
-C202715C 00000006
-81990048 2C0C0000
-40820020 3D808065
-C02CF880 D02101C4
-C02CF884 D02101C8
-C02CF888 D02101CC
-3AE00000 00000000
+C20272A0 00000004
+3D808065 C02CF880
+D02101C4 C0ECF884
+D0E101C8 C02CF888
+D02101CC 00000000
 ```
 </details>
 
 <details>
 <summary>Rubberbanding AI Flies in the Air</summary>
 
-Rubberbanding AI will be flying in the air rather than being on the ground. You can modify the height they fly at by modifying the float on the first line (42200000)
-
-Only affect cops, if you want it to affect every AI, change 40820014 to 60000000
+Rubberbanding AI will be flying in the air rather than being on the ground. You can modify the height they fly at by modifying the float on the first line (420C0000)
 
 ```powerpc
-04001898 42200000
-C202715C 00000005
-81990048 2C0C0000
-40820018 C02101C8
-3D808000 C00C1898
-EC21002A D02101C8
-3AE00000 00000000
+04001898 420C0000
+C202715C 00000004
+C0E101C8 3D808000
+C00C1898 ECE7002A
+D0E101C8 C10101C4
+60000000 00000000
 ```
 </details>
 
