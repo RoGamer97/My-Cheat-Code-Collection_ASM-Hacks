@@ -1,11 +1,14 @@
 ## Exient's Undercover AI Rubberbanding Port Codes
 
-AI Rubberbanding ported from Need for Speed Undercover Wii (Exient's Undercover). 
+Crazy AI Rubberbanding ported from Need for Speed Undercover Wii (Exient's Undercover). Designed to only affect cops to make them crazy but it can be modified to affect every AI.
+Other related codes are included.
+
+Watch this video for more detail about this code: https://youtu.be/uLocfQQyGwY
 
 <details>
-<summary>Crazy Cops (Exient's Undercover AI Rubberband Port)</summary>
+<summary>Crazy Cops (Exient's Undercover AI Rubberbanding Port)</summary>
 
-If you want every AI to rubberband (racers and your player AI), change 408202F0 to 60000000
+Main rubberband code. If you want every AI to rubberband (racers and your player AI), change 408202F0 to 60000000
 
 ```powerpc
 C2027418 00000061
@@ -163,6 +166,7 @@ E0000000 00000000
 ```
 </details>
 
+<details>
 <summary>Rubberbanding AI Chases & Rams You</summary>
 
 Rubberbanding AI will chase and ram you, very crazy and fun. Recommended to use with the "Force Rubberbanding AI Speed" code so the AIs are always moving at a constant speed, else, their speed will be based
