@@ -41,6 +41,7 @@ C0000000 0000001C
 ```
 </details>
 
+<details>
 <summary>Rainbow Player Minimap Icon</summary>
 
 Player icon (your car) will be rainbow on Minimap
