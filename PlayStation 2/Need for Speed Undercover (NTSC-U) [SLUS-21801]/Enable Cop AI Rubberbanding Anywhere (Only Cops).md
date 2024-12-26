@@ -7,7 +7,7 @@ Video explanation of the AI Rubberbanding behavior and the code in action: https
 
 This is my first PlayStation 2 code (and my first time writing MIPS code, and it's hooks, nice!)
 
-## ATTENTION. AS OF NOW, THE CODE INSTALLS NITRO TO EVERY AI CAR, INCLUDING YOURS. I'M LOOKING FOR A FIX
+# ATTENTION: AS OF NOW, THE CODE INSTALLS NITRO TO EVERY AI CAR, INCLUDING YOURS... I'M LOOKING FOR A FIX... ONCE FIXED, CODE WILL BE UPDATED AND THIS WARNING WILL BE REMOVED SO KEEP AN EYE IN THE REPO
 
 <details>
 <summary>Codebreaker</summary>
@@ -31,7 +31,7 @@ This is my first PlayStation 2 code (and my first time writing MIPS code, and it
 203555A8 03E00008
 20413D28 0C0D556B
 203555AC 2409FFFF
-203555B0 8E2200F4
+203555B0 8E220094
 203555B4 10400002
 203555B8 34020001
 203555BC AFA200E0
@@ -61,7 +61,7 @@ patch=0,EE,203555A4,extended,4602A834
 patch=0,EE,203555A8,extended,03E00008
 patch=0,EE,20413D28,extended,0C0D556B
 patch=0,EE,203555AC,extended,2409FFFF
-patch=0,EE,203555B0,extended,8E2200F4
+patch=0,EE,203555B0,extended,8E220094
 patch=0,EE,203555B4,extended,10400002
 patch=0,EE,203555B8,extended,34020001
 patch=0,EE,203555BC,extended,AFA200E0
