@@ -8,7 +8,7 @@ Watch this video for more detail about this code: https://youtu.be/uLocfQQyGwY
 <details>
 <summary>Crazy Cheating Cops (Exient's Undercover AI Rubberbanding Port)</summary>
 
-Main rubberband code. Makes cops crazy. If you want every AI to rubberband (racers and your player AI), change 408202F0 to 60000000
+Main rubberbanding code. Makes cops crazy. If you want every AI to rubberband (racers and your player AI), change 408202F0 to 60000000
 
 ```powerpc
 C2027418 00000061
@@ -134,10 +134,10 @@ C021000C 00000000
 </details>
 
 <details>
-<summary>Highway Battle AI Rubberband Simulator (Player AI Rubberband Speed Control & Auto Pilot Toggle)</summary>
+<summary>Highway Battle Rubberbanding AI Simulator (Player AI Rubberbanding Speed Control & Auto Pilot Toggle)</summary>
 
-This code allows your vehicle to "simulate" the Highway Battle AI Rubberband. Press 1, 2 and A to enable and disable auto pilot and rubberbanding for your car.
-Hold D-Pad Up and D-Pad Down (for horizontal Wiimote. D-Pad Right and D-Pad Left for vertical Wiimote) to increase/decrease your rubberband speed. Press B to completely reset the speed back to zero
+This code allows your vehicle to "simulate" the Highway Battle Rubberbanding AI. Press 1, 2 and A to enable and disable auto pilot and rubberbanding for your car.
+Hold D-Pad Up and D-Pad Down (for horizontal Wiimote. D-Pad Right and D-Pad Left for vertical Wiimote) to increase/decrease your rubberbanding speed. Press B to completely reset the speed back to zero
 
 ```powerpc
 28626B32 F4FF0B00

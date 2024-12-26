@@ -1,13 +1,14 @@
-## AI Rubberband Codes
+## AI Rubberbanding Codes
 
-Codes related to AI Rubberband from Highway Battle
+Codes related to AI Rubberbanding from Highway Battle
 
 <details>
-<summary>Enable AI Rubberband Anywhere (Every AI)</summary>
+<summary>Enable AI Rubberbanding Anywhere (Every AI)</summary>
 
-Enables AI Rubberband from Highway Battle anywhere (any mode/event or Free Roam). Two codes are included, one will affect every AI and one will only affect cops. This one affects everyone. Since it affects rival AI, they will be rubberbanding every frame and they're unbeatable. Use the other code below if you want it to only affect cops.
+Enables AI Rubberbanding from Highway Battle anywhere (any mode/event or Free Roam), for every AI. Forces them to always be rubberbanding. 
+Racers are unbeatable with this code. If you want only cops to rubberband, use the other code, below this one.
 
-Video explanation of the AI Rubberband behavior and the code in action: https://www.youtube.com/watch?v=2qrt8nCXslg
+Video explanation of the AI Rubberbanding behavior and the code in action: https://www.youtube.com/watch?v=2qrt8nCXslg
 
 ```powerpc
 04022DF8 60000000
@@ -19,23 +20,23 @@ Video explanation of the AI Rubberband behavior and the code in action: https://
 </details>
 
 <details>
-<summary>Enable AI Rubberband Anywhere (Only Cops)</summary>
+<summary>Enable Cop AI Rubberbanding Anywhere (Only Cops)</summary>
 
-Enables AI Rubberband from Highway Battle anywhere (any mode/event or Free Roam). Only affect cops. Every other AI (racer and few other AIs) will not be affected and will behave as normal, unless if using the other code above. Use this for better experience!
+Enables AI Rubberbanding from Highway Battle anywhere (any mode/event or Free Roam), for cops only. Forces them to always be rubberbanding. Cops are extremely crazy with this code. It's very fun!
+Every other AI will behave as normal. If you want every AI to rubberband, use the other code, above this one.
 
-Video explanation of the AI Rubberband behavior and the code in action: https://www.youtube.com/watch?v=2qrt8nCXslg
+Video explanation of the AI Rubberbanding behavior and the code in action: https://www.youtube.com/watch?v=2qrt8nCXslg
 
 ```powerpc
-C2027158 00000004
+C2027158 00000003
 881900C8 81990048
-2C0C0000 4082000C
-38000001 901900CC
-60000000 00000000
-C2027234 00000004
-EC61E828 81990048
-2C0C0000 40820010
-C062B3D0 D07900D8
-C062A45C 00000000
+2C0C0000 40820008
+38000001 00000000
+C202723C 00000004
+81990048 2C0C0000
+40820010 EF7BD828
+D37900D0 C062A904
+FC1B0040 00000000
 C2333EA0 00000003
 8001000C 899B006E
 2C0C0000 41820008
@@ -44,7 +45,7 @@ C2333EA0 00000003
 </details>
 
 <details>
-<summary>Enable AI Rubberband for Player AI</summary>
+<summary>Enable AI Rubberbanding for Player AI</summary>
 
 Player AI can rubberband. To work in everywhere, use with "Enable AI Rubberband Anywhere (Every AI)", else, it will only work in Highway Battle
 
@@ -56,10 +57,10 @@ Do NOT use this with "Cops Can't Rubberband in Highway Battle (Game Fix)"!
 </details>
 
 <details>
-<summary>Highway Battle AI Rubberband Simulator (Player AI Rubberband Speed Control & Auto Pilot Toggle)</summary>
+<summary>Highway Battle Rubberbanding AI Simulator (Player AI Rubberbanding Speed Control & Auto Pilot Toggle)</summary>
 
-This code allows your vehicle to "simulate" the Highway Battle AI Rubberband. This code is for Classic Controller only: Press ZL to enable and disable auto pilot and rubberbanding for your car, you MUST use "Enable AI Rubberband Anywhere (Every AI)" and
-"Enable AI Rubberband for Player AI" in order for your car to be able to rubberband. Push left stick up/down to increase/decrease your rubberband speed. Press L to completely reset the speed back to zero.
+This code allows your vehicle to "simulate" the Highway Battle Rubberbanding AI. This code is for Classic Controller only: Press ZL to enable and disable auto pilot and rubberbanding for your car, you MUST use "Enable AI Rubberbanding Anywhere (Every AI)" and
+"Enable AI Rubberbanding for Player AI" in order for your car to be able to rubberband. Push left stick up/down to increase/decrease your rubberbanding speed. Press L to completely reset the speed back to zero.
 
 Here's a video showing this code: https://www.youtube.com/shorts/0net710FLR0
 

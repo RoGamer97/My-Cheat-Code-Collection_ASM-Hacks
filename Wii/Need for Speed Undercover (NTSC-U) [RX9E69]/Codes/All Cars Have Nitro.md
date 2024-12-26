@@ -1,6 +1,6 @@
 ## All Cars Have Nitro
 
-All cars will have nitro, AIs and cops are affected
+All cars will have Race Package Nitro installed, AIs and cops are affected
 
 <details>
 <summary>Reveal Code</summary>
