@@ -7,6 +7,8 @@ Video explanation of the AI Rubberbanding behavior and the code in action: https
 
 This is my first PlayStation 2 code (and my first time writing MIPS code, and it's hooks, nice!)
 
+## ATTENTION. AS OF NOW, THE CODE INSTALLS NITRO TO EVERY AI CAR, INCLUDING YOURS. I'M LOOKING FOR A FIX
+
 <details>
 <summary>Codebreaker</summary>
 
