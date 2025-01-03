@@ -1,7 +1,7 @@
 ## Enable Cop AI Rubberbanding Anywhere
 
 Enables AI Rubberbanding from Highway Battle anywhere (any mode/event or Free Roam), for cops only. Forces them to always be rubberbanding. Cops are extremely crazy with this code. It's very fun!
-Every other AI will behave as normal, including Chinese mobs from Outrun Carmen event (They use cop AI but I added a check to exclude rubberbanding in that event). If you want every AI to rubberband, use the other code, above this one.
+Every other AI will behave as normal, including Chinese goons from Outrun Carmen event (They use cop AI but I added a check to exclude rubberbanding in that event). If you want every AI to rubberband, use the other code, above this one.
 
 Video explanation of the AI Rubberbanding behavior and the code in action: https://www.youtube.com/watch?v=2qrt8nCXslg
 
