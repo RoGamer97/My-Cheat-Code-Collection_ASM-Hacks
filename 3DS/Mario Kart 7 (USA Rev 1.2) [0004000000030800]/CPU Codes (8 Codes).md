@@ -8,7 +8,8 @@ CPU related codes
 This code allows playing as other CPUs, you can cycle the camera thru all CPUs and you will be able to play as the one that the camera is targetting, you can drive and throw items as if you were really them. 
 This code is designed for OFFLINE ONLY, the online code is private.
 
-Use D-Pad Left and Right to cycle camera & CPU control
+Use D-Pad Left and Right to cycle camera & CPU Control.
+
 Camera Cycler is made by Marioiscool246, not by me. Included with permission. Rest of the code is by me.
 
 This code can probably be shortened, using only two hooks instead of having to load my kart controller pointer to the targetted CPU in both item input function and Tanooki input function. The problem is that storing my kart controller pointer to the

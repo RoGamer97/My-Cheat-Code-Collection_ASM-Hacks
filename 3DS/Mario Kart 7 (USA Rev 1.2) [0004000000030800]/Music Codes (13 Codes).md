@@ -54,17 +54,6 @@ Other player's star musics don't play
 </details>
 
 <details>
-<summary>Always Underwater Music</summary>
-
-Music will sound like if you're underwater, works in every course
-
-```armv7
-003C6C80 EA000000
-003C6DC0 3F800000
-```
-</details>
-
-<details>
 <summary>Force XX Course Music in Every Course</summary>
 
 Forces specific course music in every track
