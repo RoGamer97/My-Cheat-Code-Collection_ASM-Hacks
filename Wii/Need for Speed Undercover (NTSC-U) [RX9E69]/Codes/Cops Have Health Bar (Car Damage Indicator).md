@@ -1,14 +1,18 @@
 ## Cops Have Health Bar (Car Damage Indicator)
 
 Cop cars will have health bar above their car (The one from Takedown, Chasedown and other events that involves destroying cars). You can see the damage level. 
+
 During a pursuit, the health bar may appear in some traffic vehicles, don't know how to fix. 
-Cops spawned by the "Cops Consecutively Spawn Behind You" code will not have health bar
+
+Cops spawned by the "Cops Consecutively Spawn Behind You" code will not have health bar.
+
+This code causes the game to freeze sometimes, I don't really know why... Be aware!
 
 <details>
 <summary>Reveal Code</summary>
 
 ```powerpc
-C200D87C 0000000E
+C200D86C 0000000E
 9421FF80 BC610008
 2C030000 41820050
 81830000 818C0010
@@ -21,7 +25,7 @@ C200D87C 0000000E
 38C00000 38E00000
 614C6B60 7D8903A6
 4E800421 B8610008
-38210080 4E800020
+38210080 BB61009C
 60000000 00000000
 C2012370 00000006
 38600001 3D408020
