@@ -6,7 +6,7 @@ Nametags are visible during countdown.
 <summary>NTSC-U</summary>
 
 ```powerpc
-047E6DC8 38600001
+047E6DD0 4800006C
 ```
 </details>
 
@@ -14,7 +14,7 @@ Nametags are visible during countdown.
 <summary>PAL</summary>
 
 ```powerpc
-047F13F0 38600001
+047F13F8 4800006C
 ```
 </details>
 
@@ -22,7 +22,7 @@ Nametags are visible during countdown.
 <summary>NTSC-J</summary>
 
 ```powerpc
-047F0A5C 38600001
+047F0A64 4800006C
 ```
 </details>
 
@@ -30,6 +30,6 @@ Nametags are visible during countdown.
 <summary>NTSC-K</summary>
 
 ```powerpc
-047DF7B0 38600001
+047DF7B8 4800006C
 ```
 </details>

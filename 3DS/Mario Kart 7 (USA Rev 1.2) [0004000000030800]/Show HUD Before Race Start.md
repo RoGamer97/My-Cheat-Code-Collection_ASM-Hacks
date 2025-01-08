@@ -1,6 +1,6 @@
 ## Show HUD Before Race Start
 
-Show HUD before the race starts
+Race HUD will instantly show instead of only showing after race start. Additionally, it also allows pausing before race start
 
 <details>
 <summary>Reveal Code</summary>

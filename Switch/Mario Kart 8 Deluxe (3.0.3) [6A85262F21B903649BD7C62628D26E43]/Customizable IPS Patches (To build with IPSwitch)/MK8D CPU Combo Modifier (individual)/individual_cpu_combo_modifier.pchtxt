@@ -1,0 +1,226 @@
+@nsobid-6A85262F21B903649BD7C62628D26E43
+@flag offset_shift 0x100
+
+// You can force EACH INDIVIDUAL CPU to use a specific character, vehicle, tire and glider. This version allows changing each individual CPU combo differently. The other .pchtxt in the "MK8D CPU Combo Modifier (All)" folder  changes ALL CPU combo to the same one
+
+@enabled
+00548108 733205EB
+0054804C A23205EB
+00548124 00000000
+00548074 00000000
+00548138 00000000
+00548088 00000000
+00548144 0000A0E3
+00548094 0000A0E3
+00694ADC 020056E30200A0030EC0A0030330A0030100A0B302C0A0B30330A0B3030056E30400A00318C0A0030030A0030500A0C30BC0A0C30030A0C3050056E30A00A00317C0A0030130A0031000A0C312C0A0C30730A0C3070056E30900A00313C0A0030130A0030B00A0C311C0A0C30130A0C3090056E30C00A00310C0A0030330A0030300A0C308C0A0C30730A0C30B0056E30800A00307C0A0030130A00338C08DE534308DE50EF0A0E1
+
+// Placeholders (Check IDs at end of the file)
+// XX = Character ID
+// YY = Vehicle ID
+// ZZ = Tire ID
+
+// CPU 1
+00694AEC XX // CPU 1 Character
+00694AF0 YY / CPU 1 Vehicle
+00694AF4 ZZ // CPU 1 Tire
+
+// CPU 2 Combo
+00694AE0 XX // CPU 2 Character
+00694AE4 YY // CPU 2 Vehicle
+00694AE8 ZZ // CPU 2 Tire
+
+// CPU 3 Combo
+00694AFC XX // CPU 3 Character
+00694B00 YY // CPU 3 Vehicle
+00694B04 ZZ // CPU 3 Tire
+
+// CPU 4 Combo
+00694B08 XX // CPU 4 Character
+00694B0C YY // CPU 4 Vehicle
+00694B10 ZZ // CPU 4 Tire
+
+// CPU 5 Combo
+00694B18 XX // CPU 5 Character
+00694B1C YY // CPU 5 Vehicle
+00694B20 ZZ // CPU 5 Tire
+
+// CPU 6 Combo
+00694B24 XX // CPU 6 Character
+00694B28 YY // CPU 6 Vehicle
+00694B2C ZZ // CPU 5 Tire
+
+// CPU 7 Combo
+00694B34 XX // CPU 7 Character
+00694B38 YY // CPU 7 Vehicle
+00694B3C ZZ // CPU 7 Tire
+
+// CPU 8 Combo
+00694B40 XX // CPU 8 Character
+00694B44 YY // CPU 8 Vehicle
+00694B48 ZZ // CPU 8 Tire
+
+// CPU 9 Combo
+00694B50 XX // CPU 9 Character
+00694B54 YY // CPU 9 Vehicle
+00694B58 ZZ // CPU 9 Tire
+
+// CPU 10 Combo
+00694B5C XX // CPU 10 Character
+00694B60 YY // CPU 10 Vehicle 
+00694B64 ZZ // CPU 10 Tire
+
+// CPU 11 Combo
+00694B6C XX // CPU 11 Character
+00694B70 YY // CPU 11 Vehicle
+00694B74 ZZ // CPU 11 Tire
+
+// All CPUs Glider (Didn't make individual for each CPU, sorry...)
+00548144 GG // Change GG to Glider ID (Check end of the file)
+00548094 GG // Change GG to Glider ID (Check end of the file)
+
+// It is possible to rewrite this code to customize it differently, for example, if a CPU is using Mario, make it use a specific vehicle part, or if a CPU is using a specific vehicle part, make it load Mario, do it by CPU ID and lots of other possibilities
+// It can be customized as wished, but I only wrote it to change each CPU individual parts separately
+
+// Character IDs (XX):
+// 00 = Mario
+// 01 = Luigi
+// 02 = Peach
+// 03 = Daisy
+// 04 = Yoshi
+// 05 = Toad
+// 06 = Toadette
+// 07 = Koopa Troopa
+// 08 = Bowser
+// 09 = Donkey Kong
+// 0A = Wario
+// 0B = Waluigi
+// 0C = Rosalina
+// 0D = Metal Mario
+// 0E = Pink Gold Peach
+// 0F = Lakitu
+// 10 = Shy Guy
+// 11 = Baby Mario
+// 12 = Baby Luigi
+// 13 = Baby Peach
+// 14 = Baby Daisy
+// 15 = Baby Rosalina
+// 16 = Larry
+// 17 = Lemmy
+// 18 = Wendy
+// 19 = Ludwig
+// 1A = Iggy
+// 1B = Roy
+// 1C = Morton
+// 1D = Mii
+// 1E = Tanooki Mario
+// 1F = Link
+// 20 = Villager
+// 21 = Isabelle
+// 22 = Cat Peach
+// 23 = Dry Bowser
+// 24 = Female Villager
+// 25 = Golden Mario
+// 26 = Dry Bones
+// 27 = Bowser Jr
+// 28 = King Boo
+// 29 = Inkling Girl
+// 2A = Inkling Boy
+// 2B = BOTW Link
+// 2C = Birdo
+// 2D = Kamek
+// 2E = Petey Piranha
+// 2F - Wiggler
+// 30 = Diddy Kong
+// 31 = Funky Kong
+// 32 = Peachette
+// 33 = Pauline
+
+// Vehicle IDs (YY):
+// 00 = Standart Kart
+// 01 = Pipe Frame
+// 02 = Mach 8
+// 03 = Steel Driver
+// 04 = Cat Cruiser
+// 05 = Circuit Special
+// 06 = Tri-Speeder
+// 07 = Badwagon
+// 08 = Prancer
+// 09 = Biddybuggy
+// 0A = Landship
+// 0B = Sneeker
+// 0C = Sports Coupe
+// 0D = Gold Standart
+// 0E = Standart Bike
+// 0F = Comet
+// 10 = Sport Bike
+// 11 = The Duke
+// 12 = Flame Rider
+// 13 = Varmint
+// 14 = Mr. Scooty
+// 15 = Jet Bike
+// 16 = Yoshi Bike
+// 17 = Standart ATV
+// 18 = Wild Wiggler
+// 19 = Teddy Buggy
+// 1A = GLA
+// 1B = W 25 Silver Arrow
+// 1C = 300 SL Roadster
+// 1D = Blue Falcon
+// 1E = Tanooki Kart
+// 1F = B Dasher
+// 20 = Master Cycle
+// 21 = Streetle
+// 22 = P-Wing
+// 23 = City Tripper
+// 24 = Bone Rattler
+// 25 = Koopa Clown
+// 26 = Splat Buggy
+// 27 = Inkstriker
+// 28 = Master Cycle Zero
+
+// Tire IDs (ZZ):
+// 0 = Standard
+// 1 = Monster
+// 2 = Roller
+// 3 = Slim
+// 4 = Slick
+// 5 = Metal
+// 6 = Button
+// 7 = Off-Road
+// 8 = Sponge
+// 9 = Wood
+// A = Cushion
+// B = Blue Standard
+// C = Hot Monster
+// D = Azure Roller
+// E = Crimson Slim
+// F = Cyber Slick
+// 10 = Retro Off-Road
+// 11 = Gold Tires
+// 12 = GLA Tires
+// 13 = Triforce Tires
+// 14 = Leaf Tires
+// 15 = Ancient Tires
+
+// Glider IDs (GG):
+// 0 = Super Glider
+// 1 = Cloud Glider
+// 2 = Wario Wing
+// 3 = Waddle Wing
+// 4 = Peach Parasol
+// 5 = Parachute
+// 6 = Parafoil
+// 7 = Flower Glider
+// 8 = Bowser Kite
+// 9 = Plane Glider
+// A = MKTV Parasol
+// B = Gold Glider
+// C = Hylian Kite
+// D = Paper Glider
+// E = Paraglider
+
+@stop
+
+
+
+
