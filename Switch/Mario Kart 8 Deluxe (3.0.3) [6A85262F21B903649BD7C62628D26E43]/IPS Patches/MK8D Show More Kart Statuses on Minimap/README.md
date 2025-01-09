@@ -1,4 +1,4 @@
-## Minimap Player Arrow
+## Show More Kart Statuses on Minimap
 
 Your minimap icon will have an arrow around it, facing the direction you're facing. This is the arrow from Battle Mode.
 

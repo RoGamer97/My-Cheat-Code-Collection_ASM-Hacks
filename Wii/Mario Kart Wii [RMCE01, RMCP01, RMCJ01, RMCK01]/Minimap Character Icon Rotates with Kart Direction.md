@@ -1,6 +1,6 @@
-## Minimap Character Icons Rotates (Kart Direction)
+## Minimap Character Icon Rotates with Kart Direction
 
-This code will make character icons face the kart direction. A better explanation is like how the searchlight works, it shows the direction that you're facing; this code does the same with character icons, you and other player's icons will be rotated according to where they're facing.
+Minimap character icons will rotate based on the direction the kart is facing. Similar to how the searchlight/arrow rotates to point in the kart’s direction, the same behavior will apply to the character icons.
 
 <details>
 <summary>NTSC-U</summary>

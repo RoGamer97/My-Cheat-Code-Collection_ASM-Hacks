@@ -41,9 +41,9 @@ E1A0F00E 1FF81080
 </details>
 
 <details>
-<summary>Enhanced Player Minimap Icon</summary>
+<summary>Minimap Character Icon Rotates with Kart Direction</summary>
 
-Minimap player icons will be facing the direction they're going. Includes a fix for damage animation to work
+Minimap character icons will rotate based on the direction the kart is facing. Similar to how the searchlight/arrow rotates to point in the kart’s direction, the same behavior will apply to the character icons. Includes a fix for damage animation to work
 
 ```armv7
 00173818 EB14320E
