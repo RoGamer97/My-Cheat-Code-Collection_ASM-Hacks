@@ -1,5 +1,9 @@
 ## Show More Kart Statuses on Minimap
 
-Your minimap icon will have an arrow around it, facing the direction you're facing. This is the arrow from Battle Mode.
+This code will show more kart statuses on minimap like Mario Kart Tour. The statuses that are included are: Inked, Shocked, Crushed, Boo and Battle Blink
 
-Due to how some courses are shifted and how 3D minimap works, arrow may be incorrectly rotated in some areas (facing random directions). In every Booster Course Pass course, the rotation is incorrect at all times so it was disabled in those and only show in Base Game courses
+How each status show on the minimap:
+Shocked: Character icon will be smaller
+Inked: Character icon will be black
+Crushed: Character icon will be squished
+Boo/Battle Blink: Character icon will be transparent, syncing with the transparency of the kart. Boo will only make your icon transparent as other player's icons are completely invisible. I didn't make them visible because it would be unfair advantage
