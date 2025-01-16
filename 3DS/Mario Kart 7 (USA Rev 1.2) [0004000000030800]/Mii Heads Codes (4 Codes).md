@@ -1,6 +1,6 @@
-## Characters Icon are Mii Heads Codes
+## Mii Heads Codes
 
-Codes that replace character icons with Mii Heads on UI
+Codes that replace UI character icons with Mii Heads
 
 <details>
 <summary>Master Create Mii Heads</summary>

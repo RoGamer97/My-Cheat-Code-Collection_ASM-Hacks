@@ -12,4 +12,4 @@ Thanks for understanding!
 
 ---
 
-Both Codes and IPS Patches folders contain a variety of content, so be sure to check out both, what you're looking is either a code or a patch, even if it's related
+The main focus here is on IPS Patches, but the Codes, IPS Patches, and Customizable IPS Patches folders contain a variety of content, so be sure to check all three. What you're looking for is either a code or a patch, even if they're related

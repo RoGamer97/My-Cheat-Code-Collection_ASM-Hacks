@@ -1,9 +1,7 @@
 ## Accurate Item Roulette v2
 
 This is a native one line version of CLF78's Accurate Item Roulette code (https://mariokartwii.com/showthread.php?...te#pid7803).
-Special Item Boxes have this property by default so you can modify it to affect any box instead. It will only show items you can actually get.
-
-DOES NOT WORK PROPERLY ONLINE
+Special Item Boxes have this property by default so you can modify it to affect any box instead. It will only show items you can actually get
 
 <details>
 <summary>NTSC-U</summary>

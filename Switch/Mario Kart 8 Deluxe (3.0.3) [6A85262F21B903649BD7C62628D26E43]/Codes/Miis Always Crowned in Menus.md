@@ -1,6 +1,6 @@
 ## Miis Always Crowned in Menus
 
-Miis will always wear crowns in menus (online lobby, LAN room, friend list [where crowns can't normally appear]). Affects everyone's miis
+Miis will always wear crowns in menus (online lobby, LAN room, friend list [where crowns can't normally appear]). Affects everyone's miis. Visual only
 
 <details>
 <summary>Reveal Code</summary>

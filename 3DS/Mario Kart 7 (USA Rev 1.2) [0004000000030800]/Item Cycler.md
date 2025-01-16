@@ -1,7 +1,8 @@
 ## Item Cycler
 
-Allows cycling thru all items.
-Use D-Pad Left and Right to cycle items
+Allows cycling through items with D-Pad Left and D-Pad Right. You can cycle to the left (previous item) and to the right (next item). Items are infinite. Very simple to use, useful for debugging and for fun!
+
+Use "No Item Roulette SFX" if you want to disable the item receive sound effect, as it happens every time you use cycle and use items. You can also use "Replace Item Receive Anim with Item Use Anim" to make the item receive animation faster (use anim instead of receive), just like Mario Kart Wii!
 
 <details>
 <summary>Reveal Code</summary>

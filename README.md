@@ -1,6 +1,6 @@
 ## About
 
-Welcome to my collection of cheat codes (ASM hacks) for various games across multiple platforms. Here, you'll find many crazy, fun, cool, and useful codes to experiment with. It includes only codes made by me.
+Welcome to my collection of cheat codes (ASM hacks) for various games across multiple platforms. Here, you'll find a variety of codes, including quality of life, efficiency, crazy, fun, useful, and more—all made by me!
 
 ### Organization
 

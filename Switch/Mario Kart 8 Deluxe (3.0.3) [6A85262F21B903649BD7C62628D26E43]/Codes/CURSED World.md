@@ -1,6 +1,6 @@
 ## CURSED World
 
-Makes everything cursed, models will turn into other models, textures will break and other weird stuff. Go to a course, then enable the code, quit and do whatever you want
+Makes everything cursed, models will turn into other models, textures will break and other weird stuff. Go to a course, then enable the code, quit and the code will have effect
 
 <details>
 <summary>Reveal Code</summary>
