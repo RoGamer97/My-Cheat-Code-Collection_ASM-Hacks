@@ -2,7 +2,9 @@
 
 Allows cycling through items with D-Pad Left and D-Pad Right. You can cycle to the left (previous item) and to the right (next item). Items are infinite. Very simple to use, useful for debugging and for fun!
 
-Use "No Item Roulette SFX" if you want to disable the item receive sound effect, as it happens every time you use cycle and use items. You can also use "Replace Item Receive Anim with Item Use Anim" to make the item receive animation faster (use anim instead of receive), just like Mario Kart Wii!
+Use with "Infinite Items" if you want to spam items very fast (e.g: Rapid Fire) as it has few frames of delay without it, and to avoid item receive SFX every time you use an item (will still play when cycling to another item). 
+
+You can use "No Item Roulette SFX" to remove item receive SFX entirely. You can also use "Replace Item Receive Anim with Item Use Anim" to replace item receive flash animation on the roulette with the item use flash which is faster and makes it look like Mario Kart Wii!
 
 <details>
 <summary>Reveal Code</summary>
