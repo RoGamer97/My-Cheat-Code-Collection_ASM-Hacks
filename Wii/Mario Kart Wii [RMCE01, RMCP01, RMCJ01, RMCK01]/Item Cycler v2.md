@@ -46,6 +46,8 @@ A16CXXXX 716CYYYY
 <details>
 <summary>PAL</summary>
 
+If you don't want to make the item infinite, replace 41820050 with 60000000 - You will cycle through items but it will disappear once used. Pressing the cycle button again will give you the item again.
+
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003). Be aware, there are TWO YYYY values, make sure you input both of them!
 ZZZZ: Button to cycle item to previous item (cycle to the left <)
@@ -81,6 +83,8 @@ A16CXXXX 716CYYYY
 <details>
 <summary>NTSC-J</summary>
 
+If you don't want to make the item infinite, replace 41820050 with 60000000 - You will cycle through items but it will disappear once used. Pressing the cycle button again will give you the item again.
+
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003). Be aware, there are TWO YYYY values, make sure you input both of them!
 ZZZZ: Button to cycle item to previous item (cycle to the left <)
@@ -115,6 +119,8 @@ A16CXXXX 716CYYYY
 
 <details>
 <summary>NTSC-K</summary>
+
+If you don't want to make the item infinite, replace 41820050 with 60000000 - You will cycle through items but it will disappear once used. Pressing the cycle button again will give you the item again.
 
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003). Be aware, there are TWO YYYY values, make sure you input both of them!
