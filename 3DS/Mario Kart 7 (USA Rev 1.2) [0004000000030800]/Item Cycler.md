@@ -9,6 +9,8 @@ You can use "No Item Roulette SFX" to remove item receive SFX entirely. You can 
 <details>
 <summary>Reveal Code</summary>
 
+If you don't want to make the item infinite, replace 0A000004 with 00000000 - You will cycle through items but it will disappear once used. Pressing the cycle button again will give you the item again
+
 ```armv7
 002D1DF4 E35500FF
 002D203C EB0EB810
