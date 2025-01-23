@@ -1,4 +1,4 @@
-## Show Ice Cube on Online Players' Respawn (N64 Sherbet Land) [Ro]
+## Show Ice Cube on Online Players' Respawn (N64 Sherbet Land)
 
 This code makes the ice cube that appears on you and CPUs when respawning in N64 Sherbet Land also appear on online players, just like it does for CPUs offline. Basically a game "fix"
 
