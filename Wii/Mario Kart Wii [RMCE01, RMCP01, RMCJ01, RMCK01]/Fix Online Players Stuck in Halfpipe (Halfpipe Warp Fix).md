@@ -7,6 +7,8 @@ This happens because the game prevents the player from warping if in halfpipe st
 I've thought a lot about this problems and I came to the conclusion that it only happen when the player is stuck in the void because I don't see a scenario where the player is stuck in air for so long (even in problematic Custom Tracks) - if the player touches the ground, they warp, so for me that's the only scenario where it happens.
 So, I decided to fix it based on out of bounds timer and not in air timer while in halfpipe. So, the halfpipe state will be cleared 130 frames after touching out of bounds (2:10 seconds, which is actually the time lakitu takes to put you back on the track).
 
+This is a remake of a code that is in the Wiimmfi payload - shorter version
+
 <details>
 <summary>NTSC-U</summary>
 
