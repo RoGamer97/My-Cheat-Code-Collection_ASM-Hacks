@@ -11,7 +11,7 @@ You can also use the "Replace Item Receive Anim with Item Use Anim" to replace r
 <details>
 <summary>Reveal Code</summary>
 
-If you don't want to make the item infinite, replace 0A000004 with 00000000 - You will cycle through items but it will disappear once used, allowing you to obtain items from boxes normally. Pressing the cycle button again will give you the hacked item again
+If you don't want to make the item infinite, replace 0A000004 with 00000000 - You will cycle through items but it will disappear once used, allowing you to obtain items from boxes normally. Pressing the cycle button again will give you the hacked back
 
 ```armv7
 002D1DF4 E35500FF
