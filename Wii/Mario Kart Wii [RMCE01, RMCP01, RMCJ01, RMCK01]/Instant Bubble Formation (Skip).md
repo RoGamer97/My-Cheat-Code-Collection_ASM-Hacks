@@ -6,7 +6,7 @@ Skips the bubble animation that shows around the earth and gets in place before 
 <summary>NTSC-U</summary>
 
 ```powerpc
-045E2D30 48000044
+045E2D14 48000060
 ```
 </details>
 
@@ -14,7 +14,7 @@ Skips the bubble animation that shows around the earth and gets in place before 
 <summary>PAL</summary>
 
 ```powerpc
-04607610 48000044
+046075F4 48000060
 ```
 </details>
 
@@ -22,7 +22,7 @@ Skips the bubble animation that shows around the earth and gets in place before 
 <summary>NTSC-J</summary>
 
 ```powerpc
-04606D84 48000044
+04606D68 48000060
 ```
 </details>
 
@@ -30,6 +30,6 @@ Skips the bubble animation that shows around the earth and gets in place before 
 <summary>NTSC-K</summary>
 
 ```powerpc
-04606D84 48000044
+045F5A14 48000060
 ```
 </details>
