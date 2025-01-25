@@ -5,7 +5,7 @@ Allows cycling through items with D-Pad Left and D-Pad Right while holding SELEC
 <details>
 <summary>Reveal Code</summary>
 
-"Item Box" item from Battle is included in the cycle only in Battle mode. It crashes in race if used. If you want it in race for some reason, change 13A02010 to E3A02011
+"Item Box" item from Battle is included in the cycle only in Battle mode. If you want it in the cycle outside of Battle, use "Battle Item Box Item in Race (Anti Crash)" code and change 13A02010 to 13A02011
 
 If you don't want to make the item infinite, replace 0A000012 with 00000000 - You will cycle through items but it will disappear once used, allowing you to obtain items from boxes normally. Pressing the cycle button again will give you the hacked item back
 
