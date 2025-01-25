@@ -1,6 +1,6 @@
 ## Battle Item Box Item in Race (Anti Crash)
 
-Fixes the "Item Box" item from Battle crashing in race - it can be thrown and works as intended. 
+Fixes the "Item Box" item from Battle crashing in race - it can be thrown and works as intended, however, it does not disappear after few seconds (likely because of gamemode stuff or something is missing).
 
 You can only obtain this item outside of Battle with hacks, use and modify "Item Cycler" so the Item Box item is in the cycle in race (Details in the Item Cycler code file) 
 
