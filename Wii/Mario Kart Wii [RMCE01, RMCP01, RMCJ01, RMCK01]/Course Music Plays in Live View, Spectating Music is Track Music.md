@@ -1,6 +1,6 @@
 ## Course Music Plays in Live View/Spectating Music is Track Music
 
-These codes will play the music of the course of the race that you're spectating. 
+These codes will play course music of the race that you're spectating. 
 
 There are three different versions of this code:
 
