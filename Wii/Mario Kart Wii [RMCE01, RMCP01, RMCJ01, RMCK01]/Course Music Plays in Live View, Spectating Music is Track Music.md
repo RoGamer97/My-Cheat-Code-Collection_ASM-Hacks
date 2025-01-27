@@ -11,6 +11,9 @@ Code 2: Live view music won't play at all, only course music, which starts playi
 
 Code 3: Live view music starts playing immediately when entering Live View "Please wait a moment..." while course music will only start playing once the message disappears and spectating starts.
 
+YOU MUST USE ONLY ONE OF THESE.
+
+
 ### Code 1 (Both live view and course music plays together, immediately)
 
 <details>
