@@ -3,7 +3,7 @@
 This code makes it so you can force if statues and posters will always have normal head or mii head. Posters and statues are separated, statues affect all tracks and some posters are shared with some tracks and some are individual courses, because of this there's two versions of the code, one that will force all statues and specific posters to be what you want and the other version you can force it on each individual track. You can remove specific lines or modify lines to remove specific tracks, everything will be referenced below.
 Before filling the values, read the information below the code.
 
-#### Code 1 (All statues and course specific posters)
+### Code 1 (All statues and course specific posters)
 
 <details>
 <summary>NTSC-U</summary>
@@ -121,7 +121,7 @@ Remove line of specific track if you want it to have normal behavior (normal hea
 ```
 </details>
 
-#### Code 2 (Course specific statues and posters/signs)
+### Code 2 (Course specific statues and posters/signs)
 
 <details>
 <summary>NTSC-U</summary>
