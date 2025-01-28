@@ -64,18 +64,19 @@ XX: Course IDs: https://tcrf.net/Notes:Mario_Kart_7#Course
 ```
 </details>
 
-
 <details>
-<summary>WiFi Menu Music Modifier</summary>
+<summary>Course Music Plays in Live View/Spectating Music is Track Music</summary>
 
-Changes WiFi Menu music.
-
-XX: BCSAR Index ID
-Music IDs can be found here: https://tcrf.net/Notes:Mario_Kart_7
-Can also play sound effects and sequenced music
+When spectating, instead of playing Live View music, it will play the course music of the race that you're 
 
 ```armv7
-003D14F0 010000XX
+003D3660 EB0AB333
+E0680334 00000028
+E92D4001 E59F0014
+E12FFF30 E5900160
+E59F100C E0811180
+E5911004 E8BD8001
+0045D050 00662DAC
 ```
 </details>
 
@@ -90,6 +91,20 @@ Can also play sound effects and sequenced music
 
 ```armv7
 003D36F0 010000XX
+```
+</details>
+
+<details>
+<summary>WiFi Menu Music Modifier</summary>
+
+Changes WiFi Menu music.
+
+XX: BCSAR Index ID
+Music IDs can be found here: https://tcrf.net/Notes:Mario_Kart_7
+Can also play sound effects and sequenced music
+
+```armv7
+003D14F0 010000XX
 ```
 </details>
 
