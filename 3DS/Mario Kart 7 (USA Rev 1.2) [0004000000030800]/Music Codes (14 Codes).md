@@ -67,7 +67,7 @@ XX: Course IDs: https://tcrf.net/Notes:Mario_Kart_7#Course
 <details>
 <summary>Course Music Plays in Live View/Spectating Music is Track Music</summary>
 
-When spectating, instead of playing Live View music, it will play the course music of the race that you're 
+When spectating, instead of playing Live View music, it will play the course music of the race that you're spectating
 
 ```armv7
 003D3660 EB0AB333
