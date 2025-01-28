@@ -9,6 +9,8 @@ Allows cycling through items with D-Pad Left and D-Pad Right while holding SELEC
 
 If you don't want to make the item infinite, replace 0A000014 with 00000000 - You will cycle through items but it will disappear once used, allowing you to obtain items from boxes normally. Pressing the cycle button again will give you the hacked item back
 
+Or if you want crazy item cycling every frame (items automatically changing, you will use a "random item"), replace 0A000014 with EA000004
+
 ```armv7
 020BAB7C EBFD1824
 E2000C14 00000088

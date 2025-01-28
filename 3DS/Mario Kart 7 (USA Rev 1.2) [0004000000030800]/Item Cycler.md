@@ -11,7 +11,9 @@ You can also use the "Replace Item Receive Anim with Item Use Anim" to replace r
 <details>
 <summary>Reveal Code</summary>
 
-If you don't want to make the item infinite, replace 0A000010 with 00000000 - You will cycle through items but it will disappear once used, allowing you to obtain items from boxes normally. Pressing the cycle button again will give you the hacked back
+If you don't want to make the item infinite, replace 0A000010 with 00000000 - You will cycle through items but it will disappear once used, allowing you to obtain items from boxes normally. Pressing the cycle button again will give you the hacked back.
+
+Or if you want crazy item cycling every frame (items automatically changing, you will use a "random item"), replace 0A000010 with EA000005 [Only works with Rapid Fire or Infinite Items]
 
 ```armv7
 002D203C EB0EB810
