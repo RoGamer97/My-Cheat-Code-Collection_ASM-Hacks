@@ -103,7 +103,7 @@ E0000000 80008000
 <details>
 <summary>NTSC-K</summary>
 
-If you don't want the Bullet being infinite, remove activator (2834XXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
+If you don't want the Bullet being infinite, remove activator (2833XXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
 
 XXXX: Controller Address
 YYYY: Button to end Bullet
@@ -125,7 +125,7 @@ Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 0458B554 38600000
 04589DC4 48000070
 0458ADD8 38600000
-2835XXXX YYYYZZZZ
+2833XXXX YYYYZZZZ
 0458ADEC 60000000
 0458ADD8 A87F0000
 E0000000 80008000

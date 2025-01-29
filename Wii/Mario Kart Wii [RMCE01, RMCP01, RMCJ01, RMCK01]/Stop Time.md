@@ -181,7 +181,7 @@ ZZZZ: Button value
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
 ```powerpc
-2835XXXX YYYYZZZZ
+2833XXXX YYYYZZZZ
 0452395C 4E800020
 0457E0EC 2C030001
 0457E118 2C030001
