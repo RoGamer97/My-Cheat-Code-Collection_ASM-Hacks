@@ -13,6 +13,8 @@ If you don't want to make the item infinite, replace 41820048 with 60000000 - Yo
 
 Or if you want crazy item cycling every frame (items automatically changing, you will use a "random item"), replace 41820048 with 48000020
 
+And if you want to give items to CPUs too, replace 41820088 with 60000000
+
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003)
 ZZZZ: Button to cycle item to previous item (cycle to the left <)
@@ -50,6 +52,8 @@ A16CXXXX 809D008C
 If you don't want to make the item infinite, replace 41820048 with 60000000 - You will cycle through items but it will disappear once used. Pressing the cycle button again will give you the item again.
 
 Or if you want crazy item cycling every frame (items automatically changing, you will use a "random item"), replace 41820048 with 48000020
+
+And if you want to give items to CPUs too, replace 41820088 with 60000000
 
 803Q: Change Q to 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address
@@ -90,6 +94,8 @@ If you don't want to make the item infinite, replace 41820048 with 60000000 - Yo
 
 Or if you want crazy item cycling every frame (items automatically changing, you will use a "random item"), replace 41820048 with 48000020
 
+And if you want to give items to CPUs too, replace 41820088 with 60000000
+
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003)
 ZZZZ: Button to cycle item to previous item (cycle to the left <)
@@ -127,6 +133,8 @@ A16CXXXX 809D008C
 If you don't want to make the item infinite, replace 41820048 with 60000000 - You will cycle through items but it will disappear once used. Pressing the cycle button again will give you the item again.
 
 Or if you want crazy item cycling every frame (items automatically changing, you will use a "random item"), replace 41820048 with 48000020
+
+And if you want to give items to CPUs too, replace 41820088 with 60000000
 
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003)
