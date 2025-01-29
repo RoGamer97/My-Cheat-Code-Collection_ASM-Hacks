@@ -8,7 +8,8 @@ This code will allow you to fully control a Bullet Bill as if you weren't in one
 If you don't want the Bullet being infinite, remove activator (2834XXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
 
 XXXX: Controller Address
-YYYY: Button to end Bullet
+YYYY: ZZZZ - FFFF (Example: If ZZZZ is 1000; FFFF - 1000 = EFFF)
+ZZZZ: Button to end Bullet  
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
@@ -41,7 +42,8 @@ If you don't want the Bullet being infinite, remove activator (283QXXXX until E0
 
 803Q: Change Q to 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address
-YYYY: Button to end Bullet
+YYYY: ZZZZ - FFFF (Example: If ZZZZ is 1000; FFFF - 1000 = EFFF)
+ZZZZ: Button to end Bullet  
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
@@ -74,7 +76,8 @@ E0000000 80008000
 If you don't want the Bullet being infinite, remove activator (2834XXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
 
 XXXX: Controller Address
-YYYY: Button to end Bullet
+YYYY: ZZZZ - FFFF (Example: If ZZZZ is 1000; FFFF - 1000 = EFFF)
+ZZZZ: Button to end Bullet  
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
@@ -106,7 +109,8 @@ E0000000 80008000
 If you don't want the Bullet being infinite, remove activator (2833XXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
 
 XXXX: Controller Address
-YYYY: Button to end Bullet
+YYYY: ZZZZ - FFFF (Example: If ZZZZ is 1000; FFFF - 1000 = EFFF)
+ZZZZ: Button to end Bullet  
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 

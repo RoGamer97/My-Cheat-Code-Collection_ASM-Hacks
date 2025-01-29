@@ -18,8 +18,8 @@ Credits to JoshuaMK for Kill Lakitu address, 1superchip for Remote Object Freeze
 <summary>NTSC-U</summary>
 
 XXXX: Controller Address
-YYYY: FFFF - ZZZZ
-ZZZZ: Button value
+YYYY: ZZZZ - FFFF (Example: If ZZZZ is 1000; FFFF - 1000 = EFFF)
+ZZZZ: Button to stop and unstop time
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
@@ -71,8 +71,8 @@ E0000000 00000000
 
 803Q: Change Q to 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address
-YYYY: FFFF - ZZZZ
-ZZZZ: Button value
+YYYY: ZZZZ - FFFF (Example: If ZZZZ is 1000; FFFF - 1000 = EFFF)
+ZZZZ: Button to stop and unstop time
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
@@ -123,8 +123,8 @@ E0000000 00000000
 <summary>NTSC-J</summary>
 
 XXXX: Controller Address
-YYYY: FFFF - ZZZZ
-ZZZZ: Button value
+YYYY: ZZZZ - FFFF (Example: If ZZZZ is 1000; FFFF - 1000 = EFFF)
+ZZZZ: Button to stop and unstop time
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
@@ -175,8 +175,8 @@ E0000000 00000000
 <summary>NTSC-K</summary>
 
 XXXX: Controller Address
-YYYY: FFFF - ZZZZ
-ZZZZ: Button value
+YYYY: ZZZZ - FFFF (Example: If ZZZZ is 1000; FFFF - 1000 = EFFF)
+ZZZZ: Button to stop and unstop time
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
