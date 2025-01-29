@@ -69,6 +69,7 @@ E0000000 00000000
 <details>
 <summary>PAL</summary>
 
+Q: 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address
 YYYY: FFFF - ZZZZ
 ZZZZ: Button value
@@ -76,7 +77,7 @@ ZZZZ: Button value
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
 ```powerpc
-2834XXXX YYYYZZZZ
+283QXXXX YYYYZZZZ
 04535904 4E800020
 04590094 2C030001
 045900C0 2C030001

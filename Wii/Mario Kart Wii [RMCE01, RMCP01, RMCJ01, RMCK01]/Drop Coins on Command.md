@@ -7,6 +7,11 @@ Works online. Can be used with "Drop/Give All Coins at Once" (https://mariokartw
 <details>
 <summary>NTSC-U</summary>
 
+XXXX: Controller Address
+YYYY: Button to drop coins
+
+Button values: https://mariokartwii.com/archive/index.php?thread-44.html
+
 ```powerpc
 C252E6E4 00000009
 81830000 9421FF80
@@ -24,10 +29,16 @@ B8610008 38210080
 <details>
 <summary>PAL</summary>
 
+Q: 5 for GameCube controller, 4 for all other controllers
+XXXX: Controller Address
+YYYY: Button to drop coins
+
+Button values: https://mariokartwii.com/archive/index.php?thread-44.html
+
 ```powerpc
 C251B0C0 00000009
 81830000 9421FF80
-BC610008 3D808034
+BC610008 3D80803Q
 A18CXXXX 718BYYYY
 41820020 3D808000
 808C1504 7C852378
@@ -40,6 +51,11 @@ B8610008 38210080
 
 <details>
 <summary>NTSC-J</summary>
+
+XXXX: Controller Address
+YYYY: Button to drop coins
+
+Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
 ```powerpc
 C251AA40 00000009
@@ -57,6 +73,11 @@ B8610008 38210080
 
 <details>
 <summary>NTSC-K</summary>
+
+XXXX: Controller Address
+YYYY: Button to drop coins
+
+Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
 ```powerpc
 C25090E0 00000009

@@ -1,6 +1,6 @@
 ## Item Use Flash Fix for Item Hack
 
-This code will force the item to flash on the item roulette when used if using an item hack that normally doesn't make the item flash when used, for e.g: Bully's Item Hack (https://mariokartwii.com/showthread.php?...+have+item). Made this code to include in my Item Cycler hack (https://mariokartwii.com/showthread.php?tid=2093) because I really like the item flash when using an item and it makes it look fancier and better.
+This code will force the item to flash on the item roulette when used if using an item hack that normally doesn't make the item flash when used, for e.g: Bully's Item Hack (https://mariokartwii.com/showthread.php?...+have+item)
 
 <details>
 <summary>NTSC-U</summary>

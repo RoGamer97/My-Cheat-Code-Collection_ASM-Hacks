@@ -27,13 +27,14 @@ B8610008 38210080
 <summary>PAL</summary>
 
 XXXX: Controller Address (1462 for NTSC-U Wiimote for example)
+Q: 5 for GameCube controller, 4 for all other controllers
 YYYY: Button value (1000 for Wiimote Minus [-] for example)
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
 ```powerpc
 C282A930 00000008
-3C80808B 3D808034
+3C80808B 3D80803Q
 A18CXXXX 718CYYYY
 41820028 9421FF80
 BC610008 38800006

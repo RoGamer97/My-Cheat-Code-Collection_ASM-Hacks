@@ -14,7 +14,6 @@ If you don't want to make the item infinite, replace 41820048 with 60000000 - Yo
 Or if you want crazy item cycling every frame (items automatically changing, you will use a "random item"), replace 41820048 with 48000020
 
 XXXX: Controller Address
-P: For PAL only, 5 for GameCube controller, 4 else
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003). Be aware, there are TWO YYYY values, make sure you input both of them!
 ZZZZ: Button to cycle item to previous item (cycle to the left <)
 
@@ -25,7 +24,7 @@ C278E9B4 00000015
 819D0000 818C0004
 818C0014 718C0002
 4182008C 3D808034
-A16C𝗫𝗫𝗫𝗫 809D008C
+A16CXXXX 809D008C
 2C040014 889D00B3
 41820048 716CYYYY
 41820058 899D00B2
@@ -53,6 +52,7 @@ If you don't want to make the item infinite, replace 41820048 with 60000000 - Yo
 
 Or if you want crazy item cycling every frame (items automatically changing, you will use a "random item"), replace 41820048 with 48000020
 
+Q: 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003). Be aware, there are TWO YYYY values, make sure you input both of them!
 ZZZZ: Button to cycle item to previous item (cycle to the left <)
@@ -63,7 +63,7 @@ Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 C27979C0 00000015
 819D0000 818C0004
 818C0014 718C0002
-4182008C 3D80803P
+4182008C 3D80803Q
 A16CXXXX 809D008C
 2C040014 889D00B3
 41820048 716CYYYY

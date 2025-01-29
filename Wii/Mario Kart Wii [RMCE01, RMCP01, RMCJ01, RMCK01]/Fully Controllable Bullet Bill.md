@@ -7,6 +7,9 @@ This code will allow you to fully control a Bullet Bill as if you weren't in one
 
 If you don't want the Bullet being infinite, remove activator (2834XXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
 
+XXXX: Controller Address
+YYYY: Button to end Bullet
+
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
 ```powerpc
@@ -34,9 +37,14 @@ E0000000 80008000
 <details>
 <summary>PAL</summary>
 
-If you don't want the Bullet being infinite, remove activator (2834XXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
+If you don't want the Bullet being infinite, remove activator (283QXXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
+
+Q: 5 for GameCube controller, 4 for all other controllers
+XXXX: Controller Address
+YYYY: Button to end Bullet
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
+
 
 ```powerpc
 0459CD94 40800078
@@ -53,7 +61,7 @@ Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 0459D4FC 38600000
 0459BD6C 48000070
 0459CD80 38600000
-2834XXXX YYYYZZZZ
+283QXXXX YYYYZZZZ
 0459CD94 60000000
 0459CD80 A87F0000
 E0000000 80008000
@@ -64,6 +72,9 @@ E0000000 80008000
 <summary>NTSC-J</summary>
 
 If you don't want the Bullet being infinite, remove activator (2834XXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
+
+XXXX: Controller Address
+YYYY: Button to end Bullet
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
@@ -93,6 +104,9 @@ E0000000 80008000
 <summary>NTSC-K</summary>
 
 If you don't want the Bullet being infinite, remove activator (2834XXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
+
+XXXX: Controller Address
+YYYY: Button to end Bullet
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html
 
