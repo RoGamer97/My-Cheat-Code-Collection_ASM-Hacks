@@ -26,8 +26,8 @@ B8610008 38210080
 <details>
 <summary>PAL</summary>
 
+803Q: Change Q to 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address (1462 for NTSC-U Wiimote for example)
-Q: 5 for GameCube controller, 4 for all other controllers
 YYYY: Button value (1000 for Wiimote Minus [-] for example)
 
 Button values: https://mariokartwii.com/archive/index.php?thread-44.html

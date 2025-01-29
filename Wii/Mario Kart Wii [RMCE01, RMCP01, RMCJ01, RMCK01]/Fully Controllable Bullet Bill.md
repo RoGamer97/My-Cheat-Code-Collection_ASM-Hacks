@@ -39,7 +39,7 @@ E0000000 80008000
 
 If you don't want the Bullet being infinite, remove activator (283QXXXX until E0000000) and the last line before the 2834XXXX, which ends with instruction 38600000)
 
-Q: 5 for GameCube controller, 4 for all other controllers
+803Q: Change Q to 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address
 YYYY: Button to end Bullet
 

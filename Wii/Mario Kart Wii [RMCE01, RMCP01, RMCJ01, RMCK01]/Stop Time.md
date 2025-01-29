@@ -69,7 +69,7 @@ E0000000 00000000
 <details>
 <summary>PAL</summary>
 
-Q: 5 for GameCube controller, 4 for all other controllers
+803Q: Change Q to 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address
 YYYY: FFFF - ZZZZ
 ZZZZ: Button value

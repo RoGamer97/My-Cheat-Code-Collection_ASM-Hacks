@@ -90,7 +90,7 @@ C27E2018 0000000A
 <details>
 <summary>PAL</summary>
 
-Q: 5 for GameCube controller, 4 for all other controllers
+803Q: Change Q to 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address Second Half [Example: 14C2 for Classic Controller NTSC-U]
 YYYY: Both cycle buttons masked together (Button to cycle to previous+ Button to cycle to next button = YYYY) [Example: 8002 for D-Pad Left/Right for Classic Controller ]
 ZZZZ: Button to cycle to previous [Example: 0002 for D-Pad Left for Classic Controller ]

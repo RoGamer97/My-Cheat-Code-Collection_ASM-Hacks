@@ -29,7 +29,7 @@ B8610008 38210080
 <details>
 <summary>PAL</summary>
 
-Q: 5 for GameCube controller, 4 for all other controllers
+803Q: Change Q to 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address
 YYYY: Button to drop coins
 

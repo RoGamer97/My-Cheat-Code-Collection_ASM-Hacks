@@ -52,7 +52,7 @@ If you don't want to make the item infinite, replace 41820048 with 60000000 - Yo
 
 Or if you want crazy item cycling every frame (items automatically changing, you will use a "random item"), replace 41820048 with 48000020
 
-Q: 5 for GameCube controller, 4 for all other controllers
+803Q: Change Q to 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003). Be aware, there are TWO YYYY values, make sure you input both of them!
 ZZZZ: Button to cycle item to previous item (cycle to the left <)
