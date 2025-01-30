@@ -7,6 +7,7 @@ Works online. Can be used with "Drop/Give All Coins at Once" (https://mariokartw
 <details>
 <summary>NTSC-U</summary>
 
+DO NOT USE MORE THAN ONE BUTTON AT SAME TIME (Example: B and D-Pad Left. Use one: D-Pad Left for example)
 XXXX: Controller Address
 YYYY: Button to drop coins
 

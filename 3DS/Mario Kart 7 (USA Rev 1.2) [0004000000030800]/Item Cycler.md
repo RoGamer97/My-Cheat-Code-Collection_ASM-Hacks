@@ -15,6 +15,8 @@ If you don't want to make the item infinite, replace 0A000010 with 00000000 - Yo
 
 Or if you want crazy item cycling every frame (items automatically changing, you will use a "random item"), replace 0A000010 with EA000005 [Only works with Rapid Fire or Infinite Items]
 
+And if you want to give items to CPUs too, replace E5D23098 with E3A03001
+
 ```armv7
 002D203C EB0EB810
 E0680084 000000A8

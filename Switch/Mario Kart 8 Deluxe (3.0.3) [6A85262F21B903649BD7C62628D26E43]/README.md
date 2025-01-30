@@ -6,7 +6,7 @@ The Christmas Release RAR includes a collection of fun and useful IPS patches an
 
 While I aim to share as many codes as possible, some must remain private and cannot be shared to avoid problems in online play, time trials leaderboards and potential bans. 
 
-Many of the codes I created can’t be shared here. I've created the most cheat codes for Mario Kart 8 Deluxe out of all the games in this whole collection but most of them offer unfair advantages or change the gameplay too much. This is considered for both codes and IPS patches
+Most of the codes I created can’t be shared here because they offer unfair advantages and gameplay changes in online play. This is considered for both codes and IPS patches
 
 Thanks for understanding!
 

@@ -15,6 +15,7 @@ Or if you want crazy item cycling every frame (items automatically changing, you
 
 And if you want to give items to CPUs too, replace 41820088 with 60000000
 
+DO NOT USE MORE THAN ONE BUTTON AT SAME TIME (Example: B and D-Pad Left. Use one: D-Pad Left for example)
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003)
 ZZZZ: Button to cycle item to previous item (cycle to the left <)
@@ -55,6 +56,7 @@ Or if you want crazy item cycling every frame (items automatically changing, you
 
 And if you want to give items to CPUs too, replace 41820088 with 60000000
 
+DO NOT USE MORE THAN ONE BUTTON AT SAME TIME (Example: B and D-Pad Left. Use one: D-Pad Left for example)
 803Q: Change Q to 5 for GameCube controller, 4 for all other controllers
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003)
@@ -96,6 +98,7 @@ Or if you want crazy item cycling every frame (items automatically changing, you
 
 And if you want to give items to CPUs too, replace 41820088 with 60000000
 
+DO NOT USE MORE THAN ONE BUTTON AT SAME TIME (Example: B and D-Pad Left. Use one: D-Pad Left for example)
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003)
 ZZZZ: Button to cycle item to previous item (cycle to the left <)
@@ -136,6 +139,7 @@ Or if you want crazy item cycling every frame (items automatically changing, you
 
 And if you want to give items to CPUs too, replace 41820088 with 60000000
 
+DO NOT USE MORE THAN ONE BUTTON AT SAME TIME (Example: B and D-Pad Left. Use one: D-Pad Left for example)
 XXXX: Controller Address
 YYYY: Both cycle to previous and next item buttons masked together. E.g: (Wiimote): D-Pad Left (0001) cycles item to the left < and D-Pad Right (0002) cycles item to the right >, therefore YYYY will be 0003 (0001 + 0002 = 0003)
 ZZZZ: Button to cycle item to previous item (cycle to the left <)

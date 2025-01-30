@@ -11,6 +11,7 @@ This code makes uses of addresses 0x80001620 thru 0x80001621. Make sure no other
 <details>
 <summary>NTSC-U</summary>
 
+DO NOT USE MORE THAN ONE BUTTON AT SAME TIME (Example: B and D-Pad Left. Use one: D-Pad Left for example)
 XXXX: Controller Address Second Half [Example: 14C2 for Classic Controller NTSC-U]
 YYYY: Both cycle buttons masked together (Button to cycle to previous+ Button to cycle to next button = YYYY) [Example: 8002 for D-Pad Left/Right for Classic Controller]
 ZZZZ: Button to cycle to previous [Example: 0002 for D-Pad Left for Classic Controller ]
