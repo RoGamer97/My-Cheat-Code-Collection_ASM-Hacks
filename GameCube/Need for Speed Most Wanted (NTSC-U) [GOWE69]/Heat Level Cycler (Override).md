@@ -1,17 +1,15 @@
-## Heat Level Cycler
+## Heat Level Cycler (Override)
 
-Allows cycling through heat levels (1-10) by command. Level 9 and 10 are only acessible with hacks, Heat 9 cops are regular Cruisers but they can do spike roadblocks, Heat 10 cops are Cross
+Allows cycling through heat levels (1-10) with C-Stick Left and C-Stick Right. You can increment and decrement the heat level.
 
-Heat won't naturally change when using this code, only by command
+Level 9 and 10 are only acessible with hacks, Heat 9 cops are regular Cruisers but they can do spike roadblocks, Heat 10 cops are Cross. 
 
-Heat 10 combo bounty is zero. Won't be fixed
+Heat won't naturally change when using this code, only by command. Heat 10 combo bounty is zero. Won't be fixed.
 
 Credits to Need for Speed Carbon Extra Options mod, I saw their source and found out what function to call
 
 <details>
 <summary>Reveal Code</summary>
-
-Push C-Stick Left to decrease heat level, C-Stick Right to increase heat level
 
 ```powerpc
 040346B0 60000000

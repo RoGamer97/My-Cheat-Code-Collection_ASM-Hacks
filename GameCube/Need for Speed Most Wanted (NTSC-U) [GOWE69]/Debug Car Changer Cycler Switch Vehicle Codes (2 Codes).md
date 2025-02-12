@@ -5,7 +5,7 @@ Codes related to the Debug feature that allows changing vehicles in game with a 
 <details>
 <summary>Debug Car Changer Cycler/Switch Vehicle</summary>
 
-Press XXXXXX buttons to switch vehicle live, modified debug car changer that is nativally in the game. XXXXX cycles to the previous vehicle, XXXXX) cycles to the next vehicle. The code below ("Cop Vehicle Cycler") allows you to cycle thru 
+Press X and D-Pad Up/D-Pad Down buttons to switch vehicle live, modified debug car changer that is nativally in the game. X and D-Pad Down cycles to the previous vehicle, X and D-Pad Up cycles to the next vehicle. The code below ("Cop Vehicle Cycler") allows you to cycle thru 
 all cop vehicles. You can customize the vehicle list to any vehicle you want, all you need to do is change the vehicle hashes to the ones you want (First hash is "BB9B2938", last one is "7D8802A6"). To get a hash, use NFS Hasher v2.0 by nfsu360 and
 input the vehicle string name and copy the value from "VLT Memory" to the code.
 
@@ -37,7 +37,7 @@ A18BBFE8 718B040C
 This code only works with the code above ("Debug Car Changer Cycler/Switch Vehicle"). It allows you to cycle thru all cop vehicles. You can customize the vehicle list to any vehicle you want, all you need to do is change the vehicle hashes to the 
 ones you want (First hash is "BB9B2938", last one is "7D8802A6"). To get a hash, use NFS Hasher v2.0 by nfsu360 and input the vehicle string name and copy the value from "VLT Memory" to the code. Extreme fun code, can add more vehicles to the
 list but the code would be too big.
-Hold XXXXXX and while still holding, pressXXXX to cycle to the previous vehicle, XXXX to cycle to the next vehicle. 
+Hold Y and while still holding, press the buttons to switch the vehicle (X and D-Pad Up or X and D-Pad Down)
 
 ```powerpc
 042C6674 7C7D1B78
