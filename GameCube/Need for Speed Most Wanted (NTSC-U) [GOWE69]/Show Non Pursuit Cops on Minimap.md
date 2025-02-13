@@ -1,6 +1,6 @@
 ## Show Non Pursuit Cops on Minimap
 
-Shows cops on minimap while not in a pursuit TO FIX
+Shows cops on minimap outside of pursuit. I coded it so their icon is red like other NFS titles
 
 <details>
 <summary>Reveal Code</summary>
