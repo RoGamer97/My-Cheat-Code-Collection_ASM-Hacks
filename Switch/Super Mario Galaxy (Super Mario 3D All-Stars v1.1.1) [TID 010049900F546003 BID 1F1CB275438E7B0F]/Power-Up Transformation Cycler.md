@@ -6,13 +6,15 @@ By default, power-ups that have time (Bee Mario, Ice Mario, Fire Mario, Flying M
 The moment you enable it, you'll transform into normal Mario - Just cycle through power-ups again with D-Pad Left/Right and they'll be infinite. 
 Two other enhancements were added to infinite power-ups: Power-Up music is disabled (Galaxy music will play instead) and it won't end on water (Example: Spring Mario will not end on water).
 
-To disable infinite power-ups and the enhancements, press D-Pad Down.You'll transform into normal Mario too.
-
-So, D-Pad Up and Down can be used for both enable/disable infinite power-up and end power-up to transform into normal Mario.
+To disable infinite power-ups and the enhancements, press D-Pad Down. You'll transform into normal Mario too. So, D-Pad Up and Down can be used for both enable/disable infinite power-up and end current power-up to transform into normal Mario.
 
 This code has careful checks to prevent crashes. 
 
-Also, transformation is faster, takes less time. Unfortunately, instant transformation crashes easily so I avoided it
+Also, transformation is faster, takes less time. Unfortunately, instant transformation crashes easily so I avoided it.
+
+This code is a recreation of the classic "Mario Transformation Hack" made for the Wii version of the game by brkirch.
+
+THIS CODE MUST BE ENABLED BEFORE ENTERING A GALAXY/LEVEL, ELSE IT WILL CRASH!
 
 <details>
 <summary>Reveal Code</summary>
