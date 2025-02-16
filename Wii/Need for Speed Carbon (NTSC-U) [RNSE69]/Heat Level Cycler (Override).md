@@ -2,7 +2,7 @@
 
 Allows cycling through heat levels (1-10) with A and D-Pad Up and A and D-Pad Down. You can increment and decrement the heat level.
 
-Level 9 and 10 are only acessible with hacks, Heat 9 cops are regular Cruisers but they can do spike roadblocks, Heat 10 cops are Cross. 
+Level 9 and 10 are unused and only acessible with hacks. Heat 9 cops are regular Cruisers but they can do spike roadblocks, Heat 10 cops are Cross. 
 
 Heat won't naturally change when using this code, only by command. Heat 10 combo bounty is zero. Won't be fixed.
 
