@@ -10,7 +10,7 @@ This is Bucko9812' request (https://mariokartwii.com/showthread.php?tid=2409)
 XXXX: Balloon Battle Time Limit
 YYYY: Coin Runners Time Limit
 
-Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C)
+Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C in Hex, 012C)
 
 ```powerpc
 0452E084 3800XXXX
@@ -24,7 +24,7 @@ Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C)
 XXXX: Balloon Battle Time Limit
 YYYY: Coin Runners Time Limit
 
-Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C)
+Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C in Hex, 012C)
 
 ```powerpc
 04532BCC 3800XXXX
@@ -38,7 +38,7 @@ Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C)
 XXXX: Balloon Battle Time Limit
 YYYY: Coin Runners Time Limit
 
-Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C)
+Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C in Hex, 012C)
 
 ```powerpc
 0453254C 3800XXXX
@@ -52,7 +52,7 @@ Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C)
 XXXX: Balloon Battle Time Limit
 YYYY: Coin Runners Time Limit
 
-Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C)
+Values are in seconds (Example: 5 Minutes is 300 Seconds = 0x12C in Hex, 012C)
 
 ```powerpc
 04520C24 3800XXXX
