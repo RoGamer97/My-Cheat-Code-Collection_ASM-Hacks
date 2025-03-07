@@ -21,7 +21,7 @@ This code will allow you to use items in any state, example, while in cannon, da
 
 ```powerpc
 047979C8 38000000
-06797B7C 0000000C
+06797C10 0000000C
 38A00000 38C00000
 38800000 00000000
 04797D4C 38600000
@@ -35,7 +35,7 @@ This code will allow you to use items in any state, example, while in cannon, da
 
 ```powerpc
 04797034 38000000
-067971E8 0000000C
+0679727C 0000000C
 38A00000 38C00000
 38800000 00000000
 047973B8 38600000
@@ -49,7 +49,7 @@ This code will allow you to use items in any state, example, while in cannon, da
 
 ```powerpc
 04785D88 38000000
-06785F3C 0000000C
+0678F1EC 0000000C
 38A00000 38C00000
 38800000 00000000
 0478610C 38600000
