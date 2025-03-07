@@ -10,7 +10,7 @@ This code will allow you to use items in any state, example, while in cannon, da
 0678EC04 0000000C
 38A00000 38C00000
 38800000 00000000
-0478ED44 38600000
+0478ED40 38600000
 0478EE14 38600000
 0478EF74 38000000
 ```
@@ -24,8 +24,8 @@ This code will allow you to use items in any state, example, while in cannon, da
 06797B7C 0000000C
 38A00000 38C00000
 38800000 00000000
-04797D50 38600000
 04797D4C 38600000
+04797E20 38600000
 04797F80 38000000
 ```
 </details>
@@ -38,8 +38,8 @@ This code will allow you to use items in any state, example, while in cannon, da
 067971E8 0000000C
 38A00000 38C00000
 38800000 00000000
-047973BC 38600000
 047973B8 38600000
+0479748C 38600000
 047975EC 38000000
 ```
 </details>
@@ -52,8 +52,8 @@ This code will allow you to use items in any state, example, while in cannon, da
 06785F3C 0000000C
 38A00000 38C00000
 38800000 00000000
-04786110 38600000
 0478610C 38600000
+047861E0 38600000
 04786340 38000000
 ```
 </details>
