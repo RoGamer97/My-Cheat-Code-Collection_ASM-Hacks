@@ -3,6 +3,26 @@
 Pursuit related codes
 
 <details>
+<summary>Cops Pursue You on Sight</summary>
+
+Cops will always start a pursuit when they see you, even if your heat level is low
+
+```powerpc
+04039010 38A00004
+```
+</details>
+
+<details>
+<summary>Cops Never Chase on Sight</summary>
+
+Cops will never start a pursuit when seeing you, even if your heat level is high
+
+```powerpc
+04039010 38A00004
+```
+</details>
+
+<details>
 <summary>Hitting Cop Cars Won't Start Pursuit</summary>
 
 Hitting cop cars will not start a pursuit

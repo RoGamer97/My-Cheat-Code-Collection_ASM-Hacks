@@ -2,7 +2,7 @@
 
 Welcome to my collection of cheat codes (ASM hacks) for various games across multiple platforms. Here, you'll find a variety of codes, including quality of life, efficiency, crazy, fun, useful, and more - all made by me! 
 
-Some private codes are not included.
+Private codes are usually not included, however, over time, some are eventually released here.
 
 ### Organization
 
