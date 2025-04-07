@@ -10,7 +10,7 @@ For some reason patrol cops spawn with goal AI randomly if your heat level is 2 
 This code is very fun when used with the "Enable Cop AI Rubberbanding Anywhere" code as makes patrol cops rubberband.
 
 ```powerpc
-04038F44 38A00004
+0400F158 60000000
 ```
 </details>
 
@@ -22,7 +22,7 @@ For some reason patrol cops spawn with goal AI randomly if your heat level is 2 
 This code can be used with the "Enable Cop AI Rubberbanding Anywhere" code so cops only rubberband when in a pursuit.
 
 ```powerpc
-04038F44 38A00000
+0400F158 4800002C
 ```
 </details>
 
