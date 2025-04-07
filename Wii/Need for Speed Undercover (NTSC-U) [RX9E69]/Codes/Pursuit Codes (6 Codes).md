@@ -18,7 +18,7 @@ Cops will always start a pursuit when they see you, even if your heat level is l
 Cops will never start a pursuit when seeing you, even if your heat level is high
 
 ```powerpc
-04039010 38A00004
+04039010 38A00000
 ```
 </details>
 
