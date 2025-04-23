@@ -13,6 +13,10 @@ Folders are organized by platform. Inside each platform folder, you'll find:
 
 Some related codes are grouped together in single files. If a file name includes ```... Codes (X Codes)```, it contains multiple related codes (where X is the number of codes in that file). Be sure to review the file carefully when searching for a specific code.
 
+### Note
+
+Source code is not included. Cheats are available in their standard encoded format.
+
 ---
 
 Please enjoy these codes as much as I enjoyed making them!
