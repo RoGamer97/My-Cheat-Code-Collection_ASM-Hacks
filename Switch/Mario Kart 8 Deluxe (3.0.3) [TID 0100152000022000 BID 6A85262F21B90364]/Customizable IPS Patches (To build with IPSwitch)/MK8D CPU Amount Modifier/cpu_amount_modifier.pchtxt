@@ -4,6 +4,6 @@
 // You can change the amount of CPUs in a race
 
 @enabled
-00900CC0 XX // Change XX to amount of racers (including you), in hex. From 01 to 0C
+00900CA8 XX // Change XX to amount of racers (including you), in hex. From 01 to 0C
 
 @stop
