@@ -2,7 +2,7 @@
 
 @flag offset_shift 0x100
 
-// Debug Moving Reimplemented (you can Fly)
+// Debug Moving Reimplemented (you can Fly) [Ro]
 @enabled
 000D5D40 CD4E6794
 00B76050 B0CD3C94
