@@ -34,7 +34,7 @@ For some reason patrol cops in goal AI follow you in specific events, they will 
 This code is very fun (but scary) when used with "Enable Cop AI Rubberbanding Anywhere". Be aware that it isn't as aggressive as "Rubberbanding AI Chases and Rams You" but it's definitely more scary because of how the cops behave.
 
 ```powerpc
-040268A8 48000028
+040260E4 480007EC
 040268E4 38000001
 ```
 </details>
