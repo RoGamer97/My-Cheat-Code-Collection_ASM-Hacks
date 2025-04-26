@@ -3,30 +3,6 @@
 Cop spawning related codes
 
 <details>
-<summary>Patrol Cops Always Spawn with Goal AI</summary>
-
-For some reason patrol cops spawn with goal AI randomly if your heat level is 2 and above (Likely to happen at Heat 3, happens 95% of the time at Heat 4). It makes them drive erratically and very fast. This code makes it so they always spawn with Goal AI.
-
-This code is very fun when used with the "Enable Cop AI Rubberbanding Anywhere" code as makes patrol cops rubberband.
-
-```powerpc
-0400F158 60000000
-```
-</details>
-
-<details>
-<summary>Patrol Cops Never Spawn with Goal AI</summary>
-
-For some reason patrol cops spawn with goal AI randomly if your heat level is 2 and above (Likely to happen at Heat 3, happens 95% of the time at Heat 4). It makes them drive erratically and very fast. This code makes it so they never spawn with Goal AI.
-
-This code can be used with the "Enable Cop AI Rubberbanding Anywhere" code so cops only rubberband when in a pursuit.
-
-```powerpc
-0400F158 4800002C
-```
-</details>
-
-<details>
 <summary>Cops Can Always Spawn</summary>
 
 Allow cops to always be able to spawn, event/mode and limits in specific scenarios. This code is included in "Cops Consecutively Spawn Behind You" and both "Police Helicopter Consecutively Spawns" code when they're enabled by button activator
