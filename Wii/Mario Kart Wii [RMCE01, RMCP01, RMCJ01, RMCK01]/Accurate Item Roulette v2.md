@@ -31,6 +31,6 @@ Special Item Boxes have this property by default so you can modify it to affect 
 <summary>NTSC-K</summary>
 
 ```powerpc
-047BB8EC 60000000
+047A9CAC 60000000
 ```
 </details>
