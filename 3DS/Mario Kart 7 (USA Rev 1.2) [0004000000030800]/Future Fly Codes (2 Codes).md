@@ -3,7 +3,7 @@
 Two Future Fly codes, one is the real code (Same flight from MKW version) other one is artificial (no coordinate manipulation, "native" flight, focused on Koopa Clown Kart being flyable with realistic physics)
 
 <details>
-<summary>Future Fly Lite</summary>
+<summary>Real Future Fly</summary>
 
 Real Future Fly. Allows you to fly freely. You can also rotate and go up and down with the stick. Flight is exactly like MKW version. Lite version because no Up/Down/Left/Right strafe. Code only affects you
 
