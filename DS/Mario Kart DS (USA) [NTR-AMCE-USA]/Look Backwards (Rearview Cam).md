@@ -6,8 +6,8 @@ You can look backwards by holding X button, like other Mario Kart titles.
 <summary>Reveal Code</summary>
 
 ```armv7
-020765F0 EBFE2A13
-E2000E44 00000094
+020765F0 EBFE2A14
+E2000E48 00000094
 E92D407F E51200D8
 E59F1080 E1100001
 1A000017 E59F0060
