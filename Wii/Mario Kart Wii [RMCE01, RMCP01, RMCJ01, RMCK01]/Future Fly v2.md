@@ -6,7 +6,7 @@ This is an enhancement to the code, I consider this v2 because:
 * Code has been optimized and shortened by a lot
 * Code works for ALL controllers, regardless of slot
 * Code works for ALL individual local players in Multiplayer
-* Trick, speed and velocities are reset to eliminate forward/backward, angular and linear velocities when deactivating the code, making you fall exactly where you deactivated it
+* Trick, speed and velocities are reset to eliminate forward/backward, angular and linear momentum when deactivating the code, making you fall exactly where you deactivated it
 
 Controls:
 Minus (or Y if GameCube Controller) - Toggle flight
