@@ -7,6 +7,7 @@ This is an enhancement to the code, I consider this v2 because:
 * Code works for ALL controllers, regardless of slot
 * Code works for ALL individual local players in Multiplayer
 * Trick, speed and velocities are reset to eliminate forward/backward, angular and linear momentum when deactivating the code, making you fall exactly where you deactivated it
+* Reset air hop/drift to prevent camera and kart from being slighty rotated 
 
 Controls:
 Minus (or Y if GameCube Controller) - Toggle flight
