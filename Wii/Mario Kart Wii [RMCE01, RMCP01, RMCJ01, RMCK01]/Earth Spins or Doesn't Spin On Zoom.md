@@ -5,6 +5,8 @@ This code allows you to force the earth to either always spin or never spin when
 <details>
 <summary>NTSC-U</summary>
 
+X: Forced spin type (0 for no spin, 1 for spin)
+
 ```powerpc
 0474B378 38A0000X
 ```
@@ -12,6 +14,8 @@ This code allows you to force the earth to either always spin or never spin when
 
 <details>
 <summary>PAL</summary>
+
+X: Forced spin type (0 for no spin, 1 for spin)
 
 ```powerpc
 047508B8 38A0000X
@@ -21,6 +25,8 @@ This code allows you to force the earth to either always spin or never spin when
 <details>
 <summary>NTSC-J</summary>
 
+X: Forced spin type (0 for no spin, 1 for spin)
+
 ```powerpc
 0474FF24 38A0000X
 ```
@@ -28,6 +34,8 @@ This code allows you to force the earth to either always spin or never spin when
 
 <details>
 <summary>NTSC-K</summary>
+
+X: Forced spin type (0 for no spin, 1 for spin)
 
 ```powerpc
 0473EC78 38A0000X

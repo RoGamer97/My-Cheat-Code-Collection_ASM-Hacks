@@ -8,7 +8,7 @@ Other players in the Friend Room won’t see your mii move, but they will see yo
 
 The code ensures you are prioritized and can always customize without interruption. For example, if mii is inactive, invisible, has a message prompt, or someone else is sending a message, your mii will instantly appear and perform your actions (moving, changing flag or region ID, or zooming) as soon as you do any of them.
 
-I highly recommend using this code with Extended Regions mod.
+I highly recommend using this code with Extended Regions mod (https://wiki.tockdom.com/wiki/Extended_Regions).
 
 Action controls:
 Stick (or Wii Wheel Turn/Tilt): Move mii around globe
