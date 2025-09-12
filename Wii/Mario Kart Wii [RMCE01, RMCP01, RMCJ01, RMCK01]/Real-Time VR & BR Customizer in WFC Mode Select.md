@@ -4,11 +4,11 @@ This code lets you customize your VR/BR in WFC Mode Select screen (The screen wh
 
 Select/hover the VS button to customize VR, select/hover the Battle button to customize BR.
 
-Press D-Pad Left/Right to increase/decrease VR/BR by 1, hold it for quick change. Hold Minus/C/X/Z while increasing/decreasing to do it by 100 instead. That way, you can easily customize it to any value you want.
+Press D-Pad Left/Right to increase/decrease VR/BR by 1, hold it for quick change. Hold Minus/C/X/ZR/Z while increasing/decreasing to do it by 100 instead. That way, you can easily customize it to any value you want.
 
 The customized VR/BR will be saved to the license/savegame instantly, and will applied on the next race/battle. Note that this code will NOT make you ALWAYS have that VR/BR, but rather customize it for the next race/battle before you join the lobby.
 
-It is capped to minimum of 1 VR/BR and maximum of 9999 VR/BR. Modify source to change cap.
+It is capped to minimum of 1 VR/BR and maximum of 9999 VR/BR.
 
 <details>
 <summary>NTSC-U</summary>
