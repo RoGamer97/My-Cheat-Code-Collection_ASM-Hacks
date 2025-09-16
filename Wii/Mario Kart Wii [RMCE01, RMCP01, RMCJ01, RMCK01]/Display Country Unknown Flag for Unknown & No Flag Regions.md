@@ -1,10 +1,12 @@
-## Display Country Unknown Flag for Unknown Regions
+## Display "Country Unknown" Flag for Unknown/No Flag Regions
 
 This code makes it so if a region has no flag or the player has flag display is disabled, it will display the "Country Unknown" flag instead (Unused flag). More info about this flag here: https://tcrf.net/Mario_Kart_Wii/Unused_G...wn.22_Flag
 
 This code is for online menu only.
 
-NOTE: This code crashes if used with Extended Regions because the mod creator removed the "Country Unknown" flag from the BRLYT (TPL was also removed). You can add it back to make it work. 
+NOTE: This code crashes if used with Extended Regions mod because the mod creator removed the "Country Unknown" flag from the BRLYT (TPL was also removed). You can add it back to make it work but I don't recommend using it with that mod.
+
+Recommended to use with my Display Country ID as Text for Regions Without Text code.
 
 <details>
 <summary>NTSC-U</summary>
