@@ -31,5 +31,3 @@ Games that had codes updated and source code included, after *May 27th, 2026*:
 Please enjoy these codes as much as I enjoyed making them!
 
 **Made with ❤️ by Ro**
-
-<sub>ASM writing in 2026 FTW</sub>

@@ -168,7 +168,7 @@ CMP W8, #2
 CSEL W8, W8, WZR, LE
 STRB W8, [X25, #0x14]
 
-STRB WZR, [X19, #0x431]
+STRB WZR, [X19, #0x431] // Disable Debug Moving
 
 MOV W8, #1
 STRB W8, [X25, #0x15] // Set custom "dirty" bool
@@ -189,7 +189,7 @@ BEQ nextPlayer // Controlled player
 CMP W8, #0
 CSET W8, GT
 MOV W9, #0x10E0
-STRB W8, [X0,X9]
+STRB W8, [X0,X9] // RemoteAI bool
 
 nextPlayer:
 ADD W24, W24, #1
@@ -456,6 +456,17 @@ LDP X19, X20, [SP, #0x10]
 LDP X21, X22, [SP, #0x20]
 LDP X29, X30, [SP], #0x30
 RET
+
+# I've ran out of space, so the hook below is 
+# placed in Lp::Sys::TimeStamp::entryDraw(void),
+# a debug function that prints the game's product
+# version and region language. This function is 
+# always running and checks if the print is enabled,
+# and returns if so. Since these prints no longer 
+# work in 5.5.2, I've stubbed this function so I 
+# could hook the code below there without crashing
+
+# 0x1967D54 -> RET
 
 
 # Debug Marching/Leading Text

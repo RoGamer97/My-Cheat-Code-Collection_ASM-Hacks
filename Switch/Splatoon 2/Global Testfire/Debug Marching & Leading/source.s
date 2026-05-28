@@ -169,7 +169,7 @@ CMP W8, #2
 CSEL W8, W8, WZR, LE
 STRB W8, [X25, #0x14]
 
-STRB WZR, [X19, #0x37D]
+STRB WZR, [X19, #0x37D] // Disable Debug Moving
 
 BL 0x25244 // Cmn::SetDbgMenuDirty
 
@@ -188,7 +188,7 @@ BEQ nextPlayer // Controlled player
 
 CMP W8, #0
 CSET W8, GT
-STRB W8, [X0, #0xDB0]
+STRB W8, [X0, #0xDB0] // RemoteAI bool
 
 nextPlayer:
 ADD W24, W24, #1
