@@ -1,24 +1,35 @@
 ## About
 
-Welcome to my collection of cheat codes (ASM hacks) for various games across multiple platforms. Here, you'll find a variety of codes, including quality of life, efficiency, crazy, fun, useful, and more - all made by me! 
+This is a collection of public cheat codes, patches, and ASM hacks for various Nintendo console games.
 
-Private codes are usually not included, however, over time, some are eventually released here.
+You’ll find a mix of quality-of-life improvements, debug features, gameplay fixes, and experimental or fun modifications.
 
-### Organization
+Every code is written by me in assembly.
 
-Folders are organized by platform. Inside each platform folder, you'll find:
+### /!\ Update in Progress /!\
 
-- **Game name folder**: Starts with the game name, followed by **version** or **region**, and then the **Game ID**.
-- **Codes:** All the codes for that game inside the corresponding game name folder.
+As of *May 27th, 2026*, this repository is currently being updated. Many existing codes are being rewritten and improved.
 
-Some related codes are grouped together in single files. If a file name includes ```... Codes (X Codes)```, it contains multiple related codes (where X is the number of codes in that file). Be sure to review the file carefully when searching for a specific code.
+Source code will also be added over time.
 
-### Note
+### Source Code (WIP)
 
-Source code is not included. Cheats are available in their standard encoded format.
+Source code is being added.
+
+The goal is to help others understand how these codes work and how they modify the game, as well as to support learning how to write custom ASM hooks (also known as [code caves](https://gamehacking.academy/pages/2/06/)) for games.
+
+Note that source code is only included for codes that use hooks, excluding pure memory writes, unless a code includes both memory writes and hooks.
+
+### Updated Games ###
+
+Games that had codes updated and source code included, after *May 27th, 2026*:
+
+- [Switch] Splatoon 2
 
 ---
 
 Please enjoy these codes as much as I enjoyed making them!
 
 **Made with ❤️ by Ro**
+
+<sub>ASM writing in 2026 FTW</sub>
