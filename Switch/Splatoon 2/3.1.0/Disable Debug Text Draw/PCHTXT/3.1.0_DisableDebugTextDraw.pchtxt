@@ -1,0 +1,9 @@
+@nsobid-034C8FA7A63B7A87F96F408B2AEFFF6C
+
+@flag offset_shift 0x100
+
+// Disable Debug Text Draw
+@enabled
+019BC22C C0035FD6
+
+@stop
