@@ -114,6 +114,8 @@ RET
 # Game::Player::calcControl + 0x2D60
 # 0xE253DC -> BL 0x1B6169C
 
+# X25 + 0x14 = Debug Marching/Leading modes (0 -> Disabled, 1 -> Marching, 2 -> Leading)
+
 STP X29, X30, [SP, #-0x40]!
 
 ADRP X25, #0x3DFE000
